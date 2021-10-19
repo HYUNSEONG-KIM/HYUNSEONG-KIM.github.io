@@ -2,6 +2,7 @@
 layout: default
 title: 기초 논리학과 증명
 parent: Physics Series
+grand_parent: Books
 nav_order: 1
 permalink: /docs/Books/Physics_Series/Mathematical Methods/기초 논리학과 증명
 ---
