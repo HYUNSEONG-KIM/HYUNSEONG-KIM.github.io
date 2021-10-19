@@ -7,8 +7,10 @@ has_children: true
 permalink: /docs/Books/GSL_Manual_Kor
 ---
 
+GFDLv1.3
+{: .label .label-orange}
 
-GSL 2.7 manual 한글 번역본 (Gnu Scientific Library)
+**GSL 2.7 manual 한글 번역본 (Gnu Scientific Library Manual)**
 
 본 책은 GNU Scientific Library(GSL) 2.7 manual과 관련 자료들을 한글로 번역한 책입니다. python 같은 경우는 한글 자료도 많지만, C로 짜여진 라이브러리는 한글 자료가 빈약하여 시작하게 되었습니다.
 
@@ -17,7 +19,7 @@ gsl 2.7 document를 기준으로 해서 번역합니다. 최대한 한글로 풀
 
 ### 허가 조항
 
-원 문서가 GNU 자유 문서 사용 허가서 (GNU FDL: GNU Free Documentation License)에 따라 배포되고 있어 본 라이센스에 따라 이 책의 모든 내용은 GNU FDL 라이센스 하에 배포 됩니다.
+원 문서가 [GNU 자유 문서 사용 허가서(GNU FDL: GNU Free Documentation License)](https://www.gnu.org/licenses/fdl-1.3.html)에 따라 배포되고 있어 본 라이센스에 따라 이 책의 모든 내용은 GNU FDL 허가서 하에 배포 됩니다.
 
     Copyright (c)  2021  김현성.
     Permission is granted to copy, distribute and/or modify this document
