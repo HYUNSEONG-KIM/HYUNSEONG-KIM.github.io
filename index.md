@@ -4,6 +4,7 @@ title: Home
 nav_order: 1
 description: "Home page of Hyean blog"
 permalink: /
+use_math: true
 ---
 
 test page
