@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Physics Series
+title: Physics_Series
 nav_order: 1
 parent: Books
 has_children: true
-permalink: /docs/Books/PS:Mathematical Methods
+permalink: /docs/Books/Physics_Series
 
 ---
 
