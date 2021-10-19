@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GSL 디자인 문서[--]
-parent: GSL_Manual_Kor
+parent: GSL 과학계산 라이브러리
 grand_parent: Books
 nav_order: 1
 use_math: true
