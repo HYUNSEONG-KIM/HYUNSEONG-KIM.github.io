@@ -7,12 +7,42 @@ permalink: /
 use_math: true
 ---
 
-test page
 
-$$ x= \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 
-Hangul test
+## Currnt Works
 
-Hangul font test
+* Wolfram Chemical service - Python module 작성
+* GSL Manual 번역
+* 평면광 계산 소프트웨어 작성
+* Physics Series 작성 및 블로그 이관 중
 
-안녕 나는 현성이야!
+## Resume
+
+<details>
+    <summary>Education</summary>
+
+    * Hanyang University High School Attached to College of Education Hanyang University (Graduated 2018)
+    * GIST: Gwangju-Institute of Science and Technology- In Physics Concentration Course (2019-Current)
+
+</details>
+
+<details>
+    <summary>Experiences</summary>
+    <p>내부에 넣을 내용을 입력해주세요</p>
+</details>
+
+<details>
+    <summary>Research</summary>
+    <p>내부에 넣을 내용을 입력해주세요</p>
+</details>
+
+<details>
+    <summary>Awards</summary>
+    <p>내부에 넣을 내용을 입력해주세요</p>
+</details>
+
+
+<details>
+    <summary>Publishing</summary>
+    <p>내부에 넣을 내용을 입력해주세요</p>
+</details>
