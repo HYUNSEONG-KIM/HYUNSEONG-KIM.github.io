@@ -10,6 +10,11 @@ permalink: /docs/Books/GSL_Manual_Kor
 GFDLv1.3
 {: .label .label-orange}
 
+1. TOC
+{:toc}
+
+
+
 **GSL 2.7 manual 한글 번역본 (Gnu Scientific Library Manual)**
 
 본 책은 GNU Scientific Library(GSL) 2.7 manual과 관련 자료들을 한글로 번역한 책입니다. python 같은 경우는 한글 자료도 많지만, C로 짜여진 라이브러리는 한글 자료가 빈약하여 시작하게 되었습니다.
