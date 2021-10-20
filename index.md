@@ -13,7 +13,7 @@ I am interesting in computational method in physics and quantum information theo
 
 <div style="margin:0 auto;"> 
 
-    [RESEARCH PROJECTS](http://example.com/){: .btn .btn-black .mr-2 } [DOWNLOAD CV](http://example.com/){: .btn .btn-black }
+[RESEARCH PROJECTS](http://example.com/){: .btn .btn-black .mr-2 } [DOWNLOAD CV](http://example.com/){: .btn .btn-black }
     
 </div>
 
