@@ -16,6 +16,8 @@ Kor
 Writing
 {: .label .label-red}
 
+{:toc}
+
 본 문서는 Mark Galassi, James Theiler and Brian Gough 저 [GNU Scientific Library -- Design document](https://www.gnu.org/software/gsl/design/gsl-design_toc.html)입니다.
 
 과학자와 공학자들이 수치해석 소프트웨어나 모듈을 개발할 때, 다음과 같은 라이브러리의 필요성이 대두되어왔습니다. 
