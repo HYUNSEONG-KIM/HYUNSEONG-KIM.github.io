@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Books
 nav_order: 3
 has_children: true
