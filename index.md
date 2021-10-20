@@ -11,11 +11,11 @@ I am a student in a Bachelor's degree program at Gwangju Institute of Science an
 
 I am interesting in computational method in physics and quantum information theory.
 
-<div style="margin:0 auto;"> 
 
-[RESEARCH PROJECTS](http://example.com/){: .btn .btn-black .mr-2 } [DOWNLOAD CV](http://example.com/){: .btn .btn-black }
+
+[RESEARCH PROJECTS](http://example.com/){: .btn .btn-black .mr-2 } 
+[DOWNLOAD CV](http://example.com/){: .btn .btn-black }
     
-</div>
 
 
 ## Resume
