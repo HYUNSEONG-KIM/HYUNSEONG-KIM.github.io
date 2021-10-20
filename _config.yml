@@ -59,7 +59,7 @@ search:
   # Supports true or false (default)
   button: false
 
-# Enable or disable heading anchors
+# Enable or disable heading anchordss
 heading_anchors: true
 
 # Aux links for the upper right navigation
