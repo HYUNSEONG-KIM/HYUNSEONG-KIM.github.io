@@ -4,7 +4,10 @@ title: Home
 nav_order: 1
 description: "Home page of Hyean blog"
 permalink: /
-use_math: true
+sitemap : 
+    changefreq : daily 
+    priority : 1.0
+
 ---
 
 I am a student in a Bachelor's degree program at Gwangju Institute of Science and Technology.
