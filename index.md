@@ -13,8 +13,8 @@ I am interesting in computational method in physics and quantum information theo
 
 
 
-[RESEARCH PROJECTS](http://example.com/){: .btn .btn-black .mr-2 } 
-[DOWNLOAD CV](http://example.com/){: .btn .btn-black }
+[RESEARCH PROJECTS](http://example.com/){: .btn .mr-2 } 
+[DOWNLOAD CV](http://example.com/){: .btn }
     
 
 
