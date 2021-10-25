@@ -1,4 +1,7 @@
 ---
+layout: null 
+sitemap: 
+  exclude: 'yes' 
 permalink: /assets/js/search-data.json
 ---
 {
