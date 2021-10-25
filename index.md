@@ -10,14 +10,7 @@ sitemap :
 
 ---
 
-<div>
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
-<div class="badge-base LI-profile-badge" data-locale="ko_KR" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="hyean-sung-kim-91abaa183" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://kr.linkedin.com/in/hyean-sung-kim-91abaa183?trk=profile-badge">Hyean Sung Kim</a></div>
- </div>             
-
-
----
 
 I am a student in a Bachelor's degree program at Gwangju Institute of Science and Technology.
 

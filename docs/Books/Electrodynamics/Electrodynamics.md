@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Physics_Series
-nav_order: 1
+title: ElectroDynamics
+nav_order: 3
 parent: Books
 has_children: true
-permalink: /docs/Books/Physics_Series
+permalink: /docs/Books/ED
 
 ---
 
