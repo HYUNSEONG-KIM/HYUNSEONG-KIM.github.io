@@ -20,7 +20,6 @@ I am interesting in computational method in physics and quantum information theo
 [DOWNLOAD CV](https://hyeansung.github.io/resources/CV.pdf){: .btn }
     
 
-
 ## Resume
 
 <details>
