@@ -10,8 +10,6 @@ sitemap :
 
 ---
 
-
-
 I am a student in a Bachelor's degree program at Gwangju Institute of Science and Technology.
 
 Interesting in computational method in physics and quantum information theory.
