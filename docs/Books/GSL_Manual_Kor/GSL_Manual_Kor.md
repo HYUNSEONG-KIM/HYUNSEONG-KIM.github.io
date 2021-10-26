@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GSL 과학계산 라이브러리
-nav_order: 2
+nav_order: 9
 parent: Books
 has_children: true
 permalink: /docs/Books/GSL_Manual_Kor
