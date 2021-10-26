@@ -1,8 +1,5 @@
---- 
-layout: null 
-sitemap: 
-  exclude: 'yes' 
---- 
+---
+---
 (function (jtd, undefined) {
 
 // Event handling

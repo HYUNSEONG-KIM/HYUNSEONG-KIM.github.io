@@ -59,7 +59,7 @@ search:
   # Supports true or false (default)
   button: false
 
-# Enable or disable heading anchordss
+# Enable or disable heading anchors
 heading_anchors: true
 
 # Aux links for the upper right navigation
@@ -81,7 +81,7 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "Contact me with qwqwhsnote@gm.gist.ac.kr."
+footer_content: "Contact e-mail: qwqwhsnote@gm.gist.ac.kr <br>Copyright &copy; 2020-2021 Hyun Seong Kim. Distributed by an <img src="/static/img/by-nc-nd.png" style="cursor:pointer" onclick="location.href='http://creativecommons.org/licenses/by-nc-nd/2.0/kr/'" title="Licenses" />"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -108,12 +108,10 @@ ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (t
 plugins:
   - jekyll-seo-tag
 
-
 kramdown:
   syntax_highlighter_opts:
     block:
-      line_numbers: true
-
+      line_numbers: false
 
 compress_html:
   clippings: all
