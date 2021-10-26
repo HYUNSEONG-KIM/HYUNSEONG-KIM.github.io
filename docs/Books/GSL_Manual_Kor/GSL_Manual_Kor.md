@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GSL 과학계산 라이브러리
-nav_order: 2
+nav_order: 9
 parent: Books
 has_children: true
 permalink: /docs/Books/GSL_Manual_Kor
@@ -26,6 +26,7 @@ gsl 2.7 document를 기준으로 해서 번역합니다. 최대한 한글로 풀
 
 원 문서가 [GNU 자유 문서 사용 허가서(GNU FDL: GNU Free Documentation License)](https://www.gnu.org/licenses/fdl-1.3.html)에 따라 배포되고 있어 본 라이센스에 따라 이 책의 모든 내용은 GNU FDL 허가서 하에 배포 됩니다.
 
+```
     Copyright (c)  2021  김현성.
     Permission is granted to copy, distribute and/or modify this document
     under the terms of the GNU Free Documentation License, Version 1.3
@@ -33,6 +34,7 @@ gsl 2.7 document를 기준으로 해서 번역합니다. 최대한 한글로 풀
     with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
     A copy of the license is included in the section entitled "GNU
     Free Documentation License".
+```
 
 ### 번역 살피기
 
