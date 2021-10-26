@@ -8,6 +8,8 @@ sitemap :
     
 ---
 
+1. TOC
+{:toc}
 
 ## Code test
 
@@ -22,15 +24,20 @@ int main(void){
 
 ## Css test
 
+
 <table>
+<tr>
 <th id="math" class="definition">Def</th>
 <th>Test definition</th>
-<tr><td colspan="2"> Definition test </td><tr>
+</tr>
+<tr><td colspan="2"> Definition test </td></tr>
 </table>
 
 <table>
+<tr>
 <th id="math" class="axiom">Def</th>
 <th>Test definition</th>
-<tr><td colspan="2"> Definition test </td><tr>
+</tr>
+<tr><td colspan="2"> Definition test </td></tr>
 </table>
 
