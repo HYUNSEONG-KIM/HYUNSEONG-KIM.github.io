@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: GSL 과학계산 라이브러리
 nav_order: 9
 parent: Books
