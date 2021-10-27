@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Just the Docs
+title: HS Lab
 description: Personal blog and archive of Hyean Sung Kim's works 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://hyeansung.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 
