@@ -11,6 +11,12 @@ sitemap :
 1. TOC
 {:toc}
 
+## Update Verification
+
+2021-10-27
+
+09:57
+
 ## Code test
 
 ```c
