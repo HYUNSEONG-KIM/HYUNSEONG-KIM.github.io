@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Projects
 nav_order: 2
 has_children: true

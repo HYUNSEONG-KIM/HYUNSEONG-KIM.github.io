@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: LED Arrary Design for Uniform irradiation
 nav_order: 1
 parent: Projects
@@ -7,6 +7,11 @@ has_children: true
 permalink: /docs/Books/LedArrayDesign
 
 ---
+
+English
+{: label .label-blue}
+Writing
+{: .label .label-red}
 
 # LED Array Design for Uniform Irradiation
 
