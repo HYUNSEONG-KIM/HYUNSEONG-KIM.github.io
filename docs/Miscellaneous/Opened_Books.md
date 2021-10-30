@@ -24,7 +24,7 @@ Free online book sources
 ## Mathematics
 
 |Author|Title|Publiser|Publish Year|
-|:--:|:--:|:--:|:--:|
+|:--:|:--|:--:|:--:|
 |Victor Shoup|[A Computational Introduction to Number Theory and Algebra](https://shoup.net/ntb/ntb-v2.pdf)|Cambridge University Press|2008|
 |Richard Hammack|[BOOK OF PROOF](http://www.people.vcu.edu/~rhammack/BookOfProof/)||2018|
 |Thomas W. Judson, Robert A. Beezer|[Abstract Algebra: Theory and Applications](http://abstract.ups.edu/aata/aata.html)|University of Puget Sound|2021|
@@ -35,21 +35,21 @@ Free online book sources
 ### Classic Physics
 
 |Author|Title|Publiser|Publish Year|
-|:--:|:--:|:--:|:--:|
+|:--:|:--|:--:|:--:|
 |Cerald Jau Sussman and Jack Wisdom| [Structure and Interpretation of Classical Mechanics](https://mitpress.mit.edu/sites/default/files/titles/content/sicm_edition_2/book.html)|MIT Press| |
 
 
 ### Quantum computer and information
 
 |Author|Title|Publiser|Publish Year|Link|
-|:--:|:--:|:--:|:--:|:--:|
+|:--:|:--|:--:|:--:|:--:|
 |Andy Matuschak & Michael Nielsen|[Quantum computing for the very curious](https://quantum.country/qcvc)||
 |--|[Qsikit Textbook](https://qiskit.org/textbook-beta)||
 
 ## Computer Science
 
 |Author|Title|Publiser|Publish Year|Link|
-|:--:|:--:|:--:|:--:|:--:|
+|:--:|:--|:--:|:--:|:--:|
 |Michael Nielsen|[Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)||||
 |Ian Goodfellow, Yoshua Bengio and Aaron Courville|[Deep Learning](https://www.deeplearningbook.org/)|MIT Press|2016|
 |Kevin Patrick Murphy|[Machine Learning: A Probabilistic Perspective](https://probml.github.io/pml-book/book0.html)|MIT Press|2012|
