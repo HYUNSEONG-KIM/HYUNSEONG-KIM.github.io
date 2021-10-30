@@ -23,28 +23,28 @@ Free online book sources
 
 ## Mathematics
 
-|Author|Title|Publiser|Publish Year|Link|
-|:--:|:--:|:--:|:--:|:--:|
-|Judson |Abstract Algebra: Theory and Applications|University of Puget Sound||https://open.umn.edu/opentextbooks/textbooks/abstract-algebra-theory-and-applications|
-|Victor Shoup|A Computational Introduction to Number Theory
-and Algebra|Cambridge University Press|2008|https://shoup.net/ntb/ntb-v2.pdf|a-computational-introduction-to-number-theory-and-algebra|
-|Richard Hammack|BOOK OF PROOF||2018|http://www.people.vcu.edu/~rhammack/BookOfProof/|
-|Thomas W. Judson, Robert A. Beezer|Abstract Algebra: Theory and Applications||2021|http://abstract.ups.edu/aata/aata.html|
-
+|Author|Title|Publiser|Publish Year|
+|:--:|:--:|:--:|:--:|
+|Victor Shoup|[A Computational Introduction to Number Theory and Algebra](https://shoup.net/ntb/ntb-v2.pdf)|Cambridge University Press|2008|a-computational-introduction-to-number-theory-and-algebra|
+|Richard Hammack|[BOOK OF PROOF](http://www.people.vcu.edu/~rhammack/BookOfProof/)||2018|
+|Thomas W. Judson, Robert A. Beezer|[Abstract Algebra: Theory and Applications](http://abstract.ups.edu/aata/aata.html)|University of Puget Sound|2021|
+||[NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov/)|
 
 ## Physics
 
 ### Classic Physics
 
-|Cerald Jau Sussman and Jack Wisdom| Structure and Interpretation of Classical Mechanics|MIT Press| |https://mitpress.mit.edu/sites/default/files/titles/content/sicm_edition_2/book.html
+|Author|Title|Publiser|Publish Year|
+|:--:|:--:|:--:|:--:|
+|Cerald Jau Sussman and Jack Wisdom| [Structure and Interpretation of Classical Mechanics](https://mitpress.mit.edu/sites/default/files/titles/content/sicm_edition_2/book.html)|MIT Press| |
 
 
 ### Quantum computer and information
 
 |Author|Title|Publiser|Publish Year|Link|
 |:--:|:--:|:--:|:--:|:--:|
-|Andy Matuschak & Michael Nielsen|Quantum computing for the very curious|https://quantum.country/qcvc|
-|--|Qsikit Textbook|https://qiskit.org/textbook-beta|
+|Andy Matuschak & Michael Nielsen|[Quantum computing for the very curious](https://quantum.country/qcvc)||
+|--|[Qsikit Textbook](https://qiskit.org/textbook-beta)||
 
 ## Computer Science
 
