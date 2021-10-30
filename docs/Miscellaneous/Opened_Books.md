@@ -50,17 +50,16 @@ Free online book sources
 
 |Author|Title|Publiser|Publish Year|Link|
 |:--:|:--:|:--:|:--:|:--:|
-|Michael Nielsen|Neural Networks and Deep Learning|||http://neuralnetworksanddeeplearning.com/|
-|Ian Goodfellow, Yoshua Bengio and Aaron Courville|Deep Learning|MIT Press|2016|https://www.deeplearningbook.org/|
-|Kevin Patrick Murphy|Machine Learning: A Probabilistic Perspective|MIT Press|2012|https://probml.github.io/pml-book/book0.html|
-|Kevin Patrick Murphy|Probabilistic Machine Learning: An Introduction|MIT Press|2021|https://probml.github.io/pml-book/book1.html|
-|Kevin Patrick Murphy|Probabilistic Machine Learning: Advanced Topics|MIT Press|2022|https://probml.github.io/pml-book/book2.html|
-|Florian Jaton|The Constitution of Algorithms: Ground-Truthing, Programming, Formulating|MIT Press|2021|https://direct.mit.edu/books/book/5093/The-Constitution-of-AlgorithmsGround-Truthing|
-|Mehryar Mohri, Afshin Rostamizadeh and Ameet Talwalkar|Foundations of Machine Learning, Second Edition|MIT Press||https://mitpress.ublish.com/ereader/7093/?preview=#page/Cover|
-|Richard S. Sutton and Andrew G. Barto|Reinforcement Learning, Second Edition|MIT Press||https://mitpress.ublish.com/book/reinforcement-learning-an-introduction-2|
-|Divakar Viswanath|Scientific Programming and Computer Architecture|MIT Press||https://divakarvi.github.io/bk-spca/spca.html|
-|Jurg Nievergelt, ETH Zurich Klaus Hinrichs|Algorithms and Data Structures With Applications to Graphics and Geometry|Global Text Project||https://open.umn.edu/opentextbooks/textbooks/algorithms-and-data-structures-with-applications-to-graphics-and-geometry|
-||||||
+|Michael Nielsen|[Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)||||
+|Ian Goodfellow, Yoshua Bengio and Aaron Courville|[Deep Learning](https://www.deeplearningbook.org/)|MIT Press|2016|
+|Kevin Patrick Murphy|[Machine Learning: A Probabilistic Perspective](https://probml.github.io/pml-book/book0.html)|MIT Press|2012|
+|Kevin Patrick Murphy|[Probabilistic Machine Learning: An Introduction](https://probml.github.io/pml-book/book1.html)|MIT Press|2021|
+|Kevin Patrick Murphy|[Probabilistic Machine Learning: Advanced Topics](https://probml.github.io/pml-book/book2.html)|MIT Press|2022|
+|Florian Jaton|[The Constitution of Algorithms: Ground-Truthing, Programming, Formulating](https://direct.mit.edu/books/book/5093/The-Constitution-of-AlgorithmsGround-Truthing)|MIT Press|2021||
+|Mehryar Mohri, Afshin Rostamizadeh and Ameet Talwalkar|[Foundations of Machine Learning, Second Edition](https://mitpress.ublish.com/ereader/7093/?preview=#page/Cover)|MIT Press|||
+|Richard S. Sutton and Andrew G. Barto|[Reinforcement Learning, Second Edition](https://mitpress.ublish.com/book/reinforcement-learning-an-introduction-2)|MIT Press|||
+|Divakar Viswanath|[Scientific Programming and Computer Architecture](https://divakarvi.github.io/bk-spca/spca.html)|MIT Press|||
+|Jurg Nievergelt, ETH Zurich Klaus Hinrichs|[Algorithms and Data Structures With Applications to Graphics and Geometry](https://open.umn.edu/opentextbooks/textbooks/algorithms-and-data-structures-with-applications-to-graphics-and-geometry)|Global Text Project||
 
 
 
