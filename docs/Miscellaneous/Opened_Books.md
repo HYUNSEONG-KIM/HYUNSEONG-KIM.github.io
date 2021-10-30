@@ -25,7 +25,7 @@ Free online book sources
 
 |Author|Title|Publiser|Publish Year|
 |:--:|:--:|:--:|:--:|
-|Victor Shoup|[A Computational Introduction to Number Theory and Algebra](https://shoup.net/ntb/ntb-v2.pdf)|Cambridge University Press|2008|a-computational-introduction-to-number-theory-and-algebra|
+|Victor Shoup|[A Computational Introduction to Number Theory and Algebra](https://shoup.net/ntb/ntb-v2.pdf)|Cambridge University Press|2008|
 |Richard Hammack|[BOOK OF PROOF](http://www.people.vcu.edu/~rhammack/BookOfProof/)||2018|
 |Thomas W. Judson, Robert A. Beezer|[Abstract Algebra: Theory and Applications](http://abstract.ups.edu/aata/aata.html)|University of Puget Sound|2021|
 ||[NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov/)|
