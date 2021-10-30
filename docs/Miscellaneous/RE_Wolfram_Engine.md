@@ -12,7 +12,7 @@ Writing
 
 # Wolfram Language Environment for Personal Server
 
-Mathematica and Wolfram mathematical documents, now, have been essential tools and references for many natural science and engineering fields. Many textbooks and Handbooks are reprinted with changing their notation to wolfram math document style. They provide powerful symbolic calculation routines and grand unified system of various engineering and science field for symbolic and numerical calculation. 
+Mathematica and Wolfram mathematical documents, now, have been essential tools and references for many natural science and engineering fields. Many textbooks and Handbooks are reprinted with changing their notation to wolfram math document style. They provide powerful symbolic calculation routines and grand unified system of various engineering and science methods for symbolic and numerical calculation. 
 
 Especially, symbolic calculation is killer application of Mathematica. It can implement real calculation module just same methods of derivative process and operations in papers and books. Not only for researchers but also students, plentiful experiences are possible with Mathematica by follwing equations and derivative process in texts. Machine works such as complicate integral and differential operation are easily solved and graphic tools help them to understand subjects well. 
 
@@ -27,7 +27,7 @@ Refer to [official site](https://www.wolfram.com/engine/commercial-options/) for
 
 ## Jupyter Environment
 
-Mathematica does not only consist of Wolfram Engine. It is combination of Wolfram Engine and other software. One of them is Wolfram Notebook. Wolfram Notebook is not opened with Wolfram Engine. However, they provide connection tool with Jupytr Notebook which can alternate Wolfram Notebook. With [**WolframLanguageForJupyter**](https://github.com/WolframResearch/WolframLanguageForJupyter), Wolfram engine can work on Jupyter as kernel.
+Mathematica does not only consist of Wolfram Engine. It is combination of Wolfram Engine and other softwares. One of them is Wolfram Notebook. Wolfram Notebook is not opened with Wolfram Engine. However, they provide connection tool with Jupytr Notebook which can be alternate front-end of Wolfram Notebook. With [**WolframLanguageForJupyter**](https://github.com/WolframResearch/WolframLanguageForJupyter), Wolfram engine can work on Jupyter as kernel.
 
 For server based system, there is [**Jupyter Lab**](https://jupyter.org/) program. Wolfram Engine nicely fit with Jupyter Lab also.
 
@@ -147,7 +147,7 @@ export PATH="$HOME/.local/bin:$PATH"
 
 ## Use of Wolfram language on Jupyter
 
-You can run every commands on Mathematica in wolfram languge. For example, you can connect internal wolfram database like Wolfram [ChemicalData](https://reference.wolfram.com/language/ref/ChemicalData.html) or external service like Pubchem, ChemSpidyer on wolfram engine just like in Mathematica. See lists of [supported external services](https://reference.wolfram.com/language/guide/ListingOfSupportedExternalServices.html). Refer [Wolfram Documentation Center](https://reference.wolfram.com/language/) for details of Wolfram Language. Basic introduction is on [fast-introduction](https://www.wolfram.com/language/fast-introduction-for-programmers/ko/).
+You can run every commands in wolfram languge in jupyter server with Wolfram Kernel as same with Mathematica. For example, you can connect internal wolfram database like Wolfram [ChemicalData](https://reference.wolfram.com/language/ref/ChemicalData.html) or external service like Pubchem, ChemSpidyer on wolfram engine just like in Mathematica. See lists of [supported external services](https://reference.wolfram.com/language/guide/ListingOfSupportedExternalServices.html). Refer [Wolfram Documentation Center](https://reference.wolfram.com/language/) for details of Wolfram Language. Basic introduction is on [fast-introduction](https://www.wolfram.com/language/fast-introduction-for-programmers/ko/).
 
 Be sure that, only one wolfram kernel can be executed on your system. If you run some task with A notebook file and you try to run B notebook file using Wolfram kernel, then B file won't work as you expect.
 
