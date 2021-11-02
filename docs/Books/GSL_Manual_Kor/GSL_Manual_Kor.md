@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GNU 과학계산 라이브러리(GNU Scientific Library)
+title: GNU 과학계산 라이브러리 (GNU Scientific Library)
 nav_order: 9
 parent: Books
 has_children: true
