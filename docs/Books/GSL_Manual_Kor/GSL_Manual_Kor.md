@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GSL 과학계산 라이브러리
+title: GNU 과학계산 라이브러리(GNU Scientific Library)
 nav_order: 9
 parent: Books
 has_children: true
@@ -13,7 +13,7 @@ GFDLv1.3
 1. TOC
 {:toc}
 
-
+# GSL library
 
 **GSL 2.7 manual 한글 번역본 (Gnu Scientific Library Manual)**
 
