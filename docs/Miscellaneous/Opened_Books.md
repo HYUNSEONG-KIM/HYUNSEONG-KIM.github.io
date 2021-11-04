@@ -15,6 +15,8 @@ Free online book sources
 
 [MIT OCW Online Textbooks](https://ocw.mit.edu/courses/online-textbooks/)
 
+[Cambridge University Press Open](https://www.cambridge.org/core/services/open-access-policies/open-access-books)
+
 [American Institute of Mathematics](https://aimath.org/textbooks/approved-textbooks/)
 
 [BCcampus:OpenEd](https://open.bccampus.ca/browse-our-collection/find-open-textbooks/)
@@ -38,6 +40,13 @@ Free online book sources
 |:--:|:--|:--:|:--:|
 |Cerald Jau Sussman and Jack Wisdom| [Structure and Interpretation of Classical Mechanics](https://mitpress.mit.edu/sites/default/files/titles/content/sicm_edition_2/book.html)|MIT Press| |
 
+### Astrophysics
+
+http://carina.fcaglp.unlp.edu.ar/extragalactica/Bibliografia/Ryden_IntroCosmo.pdf
+
+|Author|Title|Publiser|Publish Year|
+|:--:|:--|:--:|:--:|
+|Barbara Ryden| [Structure and Interpretation of Classical Mechanics](http://carina.fcaglp.unlp.edu.ar/extragalactica/Bibliografia/Ryden_IntroCosmo.pdf)| |2006|
 
 ### Quantum computer and information
 
@@ -60,8 +69,16 @@ Free online book sources
 |Richard S. Sutton and Andrew G. Barto|[Reinforcement Learning, Second Edition](https://mitpress.ublish.com/book/reinforcement-learning-an-introduction-2)|MIT Press|||
 |Divakar Viswanath|[Scientific Programming and Computer Architecture](https://divakarvi.github.io/bk-spca/spca.html)|MIT Press|||
 |Jurg Nievergelt, ETH Zurich Klaus Hinrichs|[Algorithms and Data Structures With Applications to Graphics and Geometry](https://open.umn.edu/opentextbooks/textbooks/algorithms-and-data-structures-with-applications-to-graphics-and-geometry)|Global Text Project||
+|Barthe, G., Katoen, J., & Silva, A. (Eds.).| [Foundations of Probabilistic Programming](https://www.cambridge.org/core/books/foundations-of-probabilistic-programming/819623B1B5B33836476618AC0621F0EE)|Cambridge University Press|2020|
+|Rubel, A., Castro, C., & Pham, A.|[Algorithms and Autonomy: The Ethics of Automated Decision Systems](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1FB7CBAF929DF33FEB57467CB613899C/9781108841818AR.pdf/Algorithms_and_Autonomy.pdf?event-type=FTLA)|Cambridge University Press|2021|
 
 
+
+## Tools and General Science
+|Author|Title|Publiser|Publish Year|Link|
+|:--:|:--|:--:|:--:|:--:|
+|Lie, K| [An Introduction to Reservoir Simulation Using MATLAB/GNU Octave: User Guide for the MATLAB Reservoir Simulation Toolbox (MRST)](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F48C3D8C88A3F67E4D97D4E16970F894/9781108492430AR.pdf/An_Introduction_to_Reservoir_Simulation_Using_MATLAB_GNU_Octave.pdf?event-type=FTLA)|Cambridge University Press|2019|
+|Jansen, R|[Leading your Research Team in Science](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A3AE4F688A6CBD0155625BEBA3DBF228/9781108701860AR.pdf/Leading_your_Research_Team_in_Science.pdf?event-type=FTLA)|Cambridge University Press|2018|
 
 # Closed
 
