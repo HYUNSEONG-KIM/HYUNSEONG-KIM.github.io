@@ -17,7 +17,7 @@
 title: HS Lab
 description: Personal blog and archive of Hyean Sung Kim's works 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://hyeansung.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://hyunseong-kim.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 permalink: pretty
