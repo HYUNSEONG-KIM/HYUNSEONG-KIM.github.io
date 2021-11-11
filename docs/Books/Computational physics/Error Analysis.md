@@ -1,7 +1,7 @@
 ---
 layout: default
 title: NC001:Error Analysis
-parent: Numerical analysis and Computational physics
+parent: Computational physics
 grand_parent: Books
 nav_order: 1
 use_math: true

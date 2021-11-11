@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introduction of Software
-parent: Numerical analysis and Computational physics
+parent: Computational physics
 grand_parent: Books
 use_math: true
 ---

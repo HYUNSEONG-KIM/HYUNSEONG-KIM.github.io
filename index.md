@@ -16,8 +16,8 @@ Interesting in computational method in physics and quantum information theory.
 
 
 
-[RESEARCH PROJECTS](https://hyeansung.github.io/docs/Projects){: .btn .mr-2 } 
-[DOWNLOAD CV](https://hyeansung.github.io/resources/CV.pdf){: .btn }
+[RESEARCH PROJECTS](https://hyunseong-kim.github.io/docs/Projects){: .btn .mr-2 } 
+[DOWNLOAD CV](https://hyunseong-kim.github.io/resources/CV.pdf){: .btn }
 
 
 ## Personal Works

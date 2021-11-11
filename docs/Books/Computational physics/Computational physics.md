@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Numerical analysis and Computational physics
+title: Computational physics
 nav_order: 6
 parent: Books
 has_children: true
