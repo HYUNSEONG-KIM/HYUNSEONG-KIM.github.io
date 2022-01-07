@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Opened Text Books
+title: Useful books
 permalink: /docs/Miscellaneous/OpenedBooks
 parent: Miscellaneous
 ---
@@ -81,5 +81,7 @@ http://carina.fcaglp.unlp.edu.ar/extragalactica/Bibliografia/Ryden_IntroCosmo.pd
 |Jansen, R|[Leading your Research Team in Science](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A3AE4F688A6CBD0155625BEBA3DBF228/9781108701860AR.pdf/Leading_your_Research_Team_in_Science.pdf?event-type=FTLA)|Cambridge University Press|2018|
 
 # Closed
+
+Not a Free license
 
 * [Introduction to Quantum Algorithms via Linear Algebra](https://mitpress.altmetric.com/details/102826410/blogs)

@@ -25,12 +25,6 @@ Wolfram Inc, opened their core engine [**Wolfram Engine**](https://www.wolfram.c
 
 Refer to [official site](https://www.wolfram.com/engine/commercial-options/) for details of use. 
 
-## Jupyter Environment
-
-Mathematica does not only consist of Wolfram Engine. It is combination of Wolfram Engine and other softwares. One of them is Wolfram Notebook. Wolfram Notebook is not opened with Wolfram Engine. However, they provide connection tool with Jupytr Notebook which can be alternate front-end of Wolfram Notebook. With [**WolframLanguageForJupyter**](https://github.com/WolframResearch/WolframLanguageForJupyter), Wolfram engine can work on Jupyter as kernel.
-
-For server based system, there is [**Jupyter Lab**](https://jupyter.org/) program. Wolfram Engine nicely fit with Jupyter Lab also.
-
 ## Construction
 
 You must prepare server environment you can access with web-browser. You can use GCP, AWS, Azura, Orcle Cloud,  Alibaba cloud or your own local server. All procedure is based on Ubuntu environment at least after [20.04 LTS]((https://releases.ubuntu.com/focal/). 
@@ -72,9 +66,21 @@ Now you can run shell script. x64 version Wolfram engine at least requires more 
 
 After installation complete, you can use Wolfram language with typing `wolframscript`. If you run `wolframscript` first time, you have to do autherization process with your wolfram account.
 
+In this state, you can call Wolfram engine from your local C/C++ program with [C-api](https://reference.wolfram.com/language/guide/CLanguageInterface.html) and other language interface. However, Wolfram language is interpreter language and has a notebook
+environment(Wolfram Notebook). The Wolfram engine only provides command line interface. Is there way to use notebook environment?  
+
+## Jupyter Environment
+
+Mathematica does not only consist of Wolfram Engine. It is combination of Wolfram Engine and other softwares. One of them is Wolfram Notebook. Wolfram Notebook is not opened with Wolfram Engine. However, they provide connection tool with Jupytr Notebook which can be alternate front-end of Wolfram Notebook. With [**WolframLanguageForJupyter**](https://github.com/WolframResearch/WolframLanguageForJupyter), Wolfram engine can work on Jupyter as kernel.
+
+For server based system, there is [**Jupyter Lab**](https://jupyter.org/) program. Wolfram Engine nicely fit with Jupyter Lab also.
+
 ### Install Jupyter Lab
 
-Bascially, ubuntu has its own python environment. It is wise that seperate your programming work environment and system. So you have to start install [Anaconda](https://www.anaconda.com/products/individual#Downloads) first. 
+Bascially, ubuntu has its own python environment. It is wise that seperate your programming work environment and system. 
+There are several ways to build virtual environment in python. Common method is using Anaconda. 
+This document will use [Anaconda](https://www.anaconda.com/products/individual#Downloads).
+There is no different even you make python environment with other method. 
 
 ```bash
 $wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
@@ -101,7 +107,7 @@ $ conda activate base
 (base) $
 ```
 
-Let environment name "WolframJupyter" then new environment can be initilized as next process
+Let naming new environment as "WolframJupyter" then, it can be initilized as next process.
 
 ```bash
 $ conda create WolframJupyter #normal creation
@@ -118,14 +124,15 @@ It is same with
 $ conda create -n WolframJupyter python
 $ conda install -n WolframJupyter scipy
 ```
+After initiation, activate new environment. 
 
 ```bash
 $ conda activate WolframJupyter
 (WomframJupyter) $
 ```
 
-
 See [conda document](https://conda.io/projects/conda/en/latest/index.html) for more information.
+
 
 ```bash
 $sudo apt update
@@ -149,7 +156,7 @@ export PATH="$HOME/.local/bin:$PATH"
 
 You can run every commands in wolfram languge in jupyter server with Wolfram Kernel as same with Mathematica. For example, you can connect internal wolfram database like Wolfram [ChemicalData](https://reference.wolfram.com/language/ref/ChemicalData.html) or external service like Pubchem, ChemSpidyer on wolfram engine just like in Mathematica. See lists of [supported external services](https://reference.wolfram.com/language/guide/ListingOfSupportedExternalServices.html). Refer [Wolfram Documentation Center](https://reference.wolfram.com/language/) for details of Wolfram Language. Basic introduction is on [fast-introduction](https://www.wolfram.com/language/fast-introduction-for-programmers/ko/).
 
-Be sure that, only one wolfram kernel can be executed on your system. If you run some task with A notebook file and you try to run B notebook file using Wolfram kernel, then B file won't work as you expect.
+Please note, only one wolfram kernel instance can be executed on your system simultaneously. If you run some task with 'A' notebook file and you try to run 'B' notebook file using Wolfram kernel, then B file won't work as you expect.
 
 
 <!--
