@@ -91,7 +91,7 @@ Typo, New articles:
     Using suggestion form to send a message to editor team.
     https://mathworld.wolfram.com/contact/
 
-Note: It doesn't provides access date for citation. It is because this page managed by editor team who are experts of mathematics discilpine. 
+Note: It doesn't provides access date for citation. It is because this page managed by editor team who are experts of mathematics discilpine. NIST Hand Book also reference this resource
 
 ## NIST
 
