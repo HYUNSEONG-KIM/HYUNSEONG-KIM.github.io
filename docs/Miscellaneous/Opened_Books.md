@@ -85,3 +85,9 @@ http://carina.fcaglp.unlp.edu.ar/extragalactica/Bibliografia/Ryden_IntroCosmo.pd
 Not a Free license
 
 * [Introduction to Quantum Algorithms via Linear Algebra](https://mitpress.altmetric.com/details/102826410/blogs)
+
+
+# Quantum Informatics and Computing
+
+* [Quantum Algorithm Zoo](https://quantumalgorithmzoo.org/) NIST Quantum Informatics Group
+* [NIST Quantum Information and Computer Science](https://quics.umd.edu/join-quics/undergraduate-students)
