@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Home page of Hyean blog"
+description: "Home page of Hyun"
 permalink: /
 sitemap : 
     changefreq : daily 
@@ -26,3 +26,5 @@ Interesting in computational method in physics and quantum information theory.
 * GSL Manual 번역
 * 평면광 계산 소프트웨어 작성
 * Physics Series 작성 및 블로그 이관 중
+  
+### 
