@@ -1,11 +1,10 @@
 ---
 layout: post
-title: LED Arrary Design for Uniform irradiation
+title: Uniform illumination Light device Calculation
 nav_order: 1
 parent: Projects
 has_children: true
-permalink: /docs/Books/LedArrayDesign
-
+permalink: /docs/research/uilc
 ---
 
 English
@@ -17,9 +16,14 @@ Writing
 
 Optimize the LED array location for uniform irradiation intensity on target plane.
 
+
 **Duties**:
 
-* Developed boundary-center matching algorithm for preventing boundary falling problem
+* Developed boundary-center matching algorithm for preventing boundary falling problem.
+* Implemented the kernel estimation method and the approximation solution routines for illumination equation.
 * Constructed calculation program and module for engineering applications
 
-[Paper]() : LED array design for uniform irradiance on rectangular area with boundary-center matching
+## Project details
+
+* [UILC](https://github.com/HYUNSEONG-KIM/UILC)
+

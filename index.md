@@ -10,9 +10,14 @@ sitemap :
 
 ---
 
-I am a student in a Bachelor's degree program at Gwangju Institute of Science and Technology.
+I am a student in a Bachelor's degree course at [GIST](https://www.gist.ac.kr/kr/main.html) \(Gwangju Institute of Science and Technology\).
 
-Interesting in computational method in physics and quantum information theory.
+* Department: Physics and Photonics
+* Research identifier
+    * Orcid: [0000-0002-4876-7820](https://orcid.org/0000-0002-4876-7820)
+    * Krid: 12673381
+
+Interesting in computational method in physics and quantum computation.
 
 
 
@@ -22,9 +27,6 @@ Interesting in computational method in physics and quantum information theory.
 
 ## Personal Works
 
-* Wolfram Chemical service - Python module 작성
-* GSL Manual 번역
-* 평면광 계산 소프트웨어 작성
-* Physics Series 작성 및 블로그 이관 중
-  
-### 
+See detials and full works in my [github page](https://github.com/HYUNSEONG-KIM)
+
+ 
