@@ -4,15 +4,22 @@ title: Dynamic Reference Work
 nav_order: 1
 parent: Projects
 has_children: true
-permalink: /docs/Dynamic Reference
+permalink: /docs/essays/dynamic_ref_work
 
 ---
 
-
-
 # Dynamic Reference Works
 
-**Reliability of Reference**
+This project is a review of online resource citation in scientific writing.
+In addition, the bibliography of such subjects.
+
+## About Dynamic Reference
+
+See introduction paper of Stanford Encyclopedia of Philosophy
+
+* Allen, Colin, Uri Nodelman, and Edward N. Zalta. "The stanford encyclopedia of philosophy: A developed dynamic reference work." Metaphilosophy 33.1‐2 (2002): 210-228.
+
+## Reliability of Reference
 
 * Färber, M., Jatowt, A. Citation recommendation: approaches and datasets. Int J Digit Libr 21, 375–405 (2020). https://doi.org/10.1007/s00799-020-00288-2
 * Bainbridge, D., Twidale, M.B. & Nichols, D.M. Interactive context-aware user-driven metadata correction in digital libraries . Int J Digit Libr 13, 17–32 (2012). https://doi.org/10.1007/s00799-012-0100-5
@@ -20,27 +27,36 @@ permalink: /docs/Dynamic Reference
 * González Pinto, J.M., Balke, WT. Assessing plausibility of scientific claims to support high-quality content in digital collections. Int J Digit Libr 21, 47–60 (2020). https://doi.org/10.1007/s00799-018-0256-8
 * Griffin, S. Introduction to the special issue on digital scholarship. Int J Digit Libr 16, 1–2 (2015). https://doi.org/10.1007/s00799-015-0142-6
 * González Pinto, J.M., Balke, WT. Assessing plausibility of scientific claims to support high-quality content in digital collections. Int J Digit Libr 21, 47–60 (2020). https://doi.org/10.1007/s00799-018-0256-8
-
 * Bruce Alberts, Brooks Hanson and Katrina L. Kelner, Reviewing Peer Review, Science, Jul 2008, Vol 321, Issue 5885, p. 15, DOI: 10.1126/science.1162115
 
-**About Wikipedia**
 
-* Serrano-López, A.E., Ingwersen, P. & Sanz-Casado, E. Wind power research in Wikipedia: Does Wikipedia demonstrate direct influence of research publications and can it be used as adequate source in research evaluation?. Scientometrics 112, 1471–1488 (2017). https://doi.org/10.1007/s11192-017-2447-2
-* Polk, T., Johnston, M.P. & Evers, S. Wikipedia Use in Research: Perceptions in Secondary Schools. TECHTRENDS TECH TRENDS 59, 92–102 (2015). https://doi.org/10.1007/s11528-015-0858-6
-* Aibar, E., Lladós-Masllorens, J., Meseguer-Artola, A., Minguillón, J., & Lerga, M. (2015). Wikipedia at university: what faculty think and do about it. The Electronic Library, 33(4), 668–683. doi:10.1108/el-12-2013-0217 
+## What digital resources adopted in academic fields?
 
-**Digitial Resources adopted in Academic Papers**
+In present, most of the journal and publishers are offering online resources and papers. The "digital resource" means its 1st production and distribution are conducted on internet and they are dynamically updated by time flowing. The online journal and books are not included in the digital resource. They keeps their contents of each with own identifiers by each changes. 
 
 * NIST Digital library of Mathematical functions
 * Wolfram Math World
 * Encyclopedia of Mathematics
 * Stanford Encyclopedia of Philosophy
+* AIC Wiki
+
+## About Wikipedia
+
+The fun fact is that Wikipedia is not considered as reliable source in academic field, even their tools, Mediawiki and their digial resources, are actively adopted in *academic digital source* services, such as Encyclopedia of Mathematics or AIC Wiki. 
+
+It is not a weird because "science" is a system of stacking and expanding knowledge.
+The key factor is how each resource services generate knowledges.  
+
+* Serrano-López, A.E., Ingwersen, P. & Sanz-Casado, E. Wind power research in Wikipedia: Does Wikipedia demonstrate direct influence of research publications and can it be used as adequate source in research evaluation?. Scientometrics 112, 1471–1488 (2017). https://doi.org/10.1007/s11192-017-2447-2
+* Polk, T., Johnston, M.P. & Evers, S. Wikipedia Use in Research: Perceptions in Secondary Schools. TECHTRENDS TECH TRENDS 59, 92–102 (2015). https://doi.org/10.1007/s11528-015-0858-6
+* Aibar, E., Lladós-Masllorens, J., Meseguer-Artola, A., Minguillón, J., & Lerga, M. (2015). Wikipedia at university: what faculty think and do about it. The Electronic Library, 33(4), 668–683. doi:10.1108/el-12-2013-0217 
+
 
 ## Papers Review
 
 Färber, M., Jatowt, A. Citation recommendation: approaches and datasets. Int J Digit Libr 21, 375–405 (2020). https://doi.org/10.1007/s00799-020-00288-2
 
-Digital Library 에서 인용 추천에 관한 기능 개발에 관한 이론과 모델 구축 논문, 
+Theory and Model implementation about ciation suggestion routine implementation in digital library.
 
 > Most notably all claims wirtten by the author need to be backed up inorder to ensure transparency, reliability and truthfulness.
 > in order to help the reader to properly understand the text and to give attribution ot the corresponding publications and authos.
@@ -73,8 +89,6 @@ Simone Teufel Advaith Siddharthan Dan Tidhar
 
 * John Swales, 1990. Genre Analysis: English in Academic and Research Settings. Chapter 7: Research articles in English, pages 110–176. Cambridge University Press, Cambridge, UK
 * reg Myers. 1992. In this paper we report...—speech acts and scientific facts. Journal of Pragmatics, 17(4):295–313.
-
-
 
 
 ## Wolfram MathWorld
