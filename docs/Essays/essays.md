@@ -7,6 +7,5 @@ permalink: /docs/essays
 
 ---
 
-
 # List of Essays
 
