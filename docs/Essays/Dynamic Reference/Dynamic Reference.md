@@ -2,7 +2,7 @@
 layout: post
 title: Dynamic Reference Work
 nav_order: 1
-parent: Projects
+parent: Essays
 has_children: true
 permalink: /docs/essays/dynamic_ref_work
 
