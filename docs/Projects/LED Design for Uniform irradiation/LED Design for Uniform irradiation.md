@@ -4,7 +4,7 @@ title: Uniform illumination Light device Calculation
 nav_order: 1
 parent: Projects
 has_children: true
-permalink: /docs/research/uilc
+permalink: /docs/projects/research/uilc
 ---
 
 English

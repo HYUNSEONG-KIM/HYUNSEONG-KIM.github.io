@@ -5,7 +5,6 @@ nav_order: 1
 parent: Essays
 has_children: true
 permalink: /docs/essays/dynamic_ref_work
-
 ---
 
 # Dynamic Reference Works
