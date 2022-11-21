@@ -24,7 +24,7 @@ permalink: /cv
 
 * 2019-Present: **Bachelor of Phyiscs**, *School of Physics and Photonics*, Gwangju Institute of Science and Technology([GIST](https://www.gist.ac.kr/kr/main.html)), Gwangju.
     * CPA: 3.86/4.5 - Grade: Distinction, HighestL 4.1/4.5 
-* 2008-2011: **High School Education**, High school attached to school of education of Hanyang University, Seoul.
+* 2015-2017: **High School Education**, High school attached to school of education of Hanyang University, Seoul.
 
 ## Research
 
@@ -43,10 +43,10 @@ permalink: /cv
 
 #### Patent
 
-* 11/2020: Machine ofr manufacturing printed circuit boards using photopolymerization ffe and metal nano ink, Korean Intellectual Property Office 
+* Nov/2020: Machine for manufacturing printed circuit boards using photopolymerization effect and metal nano ink, Korean Intellectual Property Office.
   * Roll: Conceptualization, Project administration, Resources, Software, Supervision
   * DOI: [10.8080/1020200151660](http://doi.org/10.8080/1020200151660)
-  * GOOGLE_PATENT_CODE: [KR20210003063A](https://patents.google.com/patent/KR20210003063A)  
+  * GOOGLE_PATENT_CODE: [KR20210003063A](https://patents.google.com/patent/KR20210003063A)
   
 ## Experience
 
@@ -56,23 +56,23 @@ permalink: /cv
 
 ### Developer
 
-* 2021: **Internship**, Quantum information Lab, Hanyang university., Seoul.
-  * Project: Quantum computer and infomatics handbook, document converting program
-development and wiki server environment setting. *Finished*.
-* 12/2020–8/2021: **Internship**, Bioinformatics Lab, GIST., Gwangju.
-Working as a part-time developer. 
-  *  Learned about data processing for large scale data, communication between server and automatic system.
+* Sep/2021-Oct/2021: **Internship**, Quantum information Lab, Hanyang university, Seoul.
+  * Project: Quantum computer and infomatics handbook, *Finished*.
+  * Roll: Document converting program implement, Server environment develope and management, and Reviewing contents.
+* Dec/2020–Aug/2021: **Internship**, Bioinformatics Lab, GIST, Gwangju.
   * Project: Development of preprocessed data for machine learning model indicates side effects of chemical compounds. *Finished*.
-* 2019: Developer, Makerton (GIST 2019). Mobility unified black-box system using IOT
+  * Roll: Data labeling and preprocessing
+  * Learned about data processing for large scale data, communication between server and automatic data pip line system.
+* 2019: Makerton (GIST 2019). Mobility unified black-box system using IOT
 
 ### Translation
 
-* 1/2021-8/2021: (English -> Korean) Wolfram Inc, Wolfram U team education contents translation team activity. See a [Certification](https://hyeansung.github.io/resources/Wolfram_Translation_Certification.pdf).
+* Jan/2021-Aug/2021: (English -> Korean) Wolfram Inc, Wolfram U team education contents translation team activity. See a [Certification](https://hyeansung.github.io/resources/Wolfram_Translation_Certification.pdf).
 
 ### Miscelleneous
 
 * 2019: Volunteer, Junction X 2019 Hackerton
-* 3/2019: Reviewer, Ikarus 2020 mock exam of high school physics II reviewer
+* Mar/2019: Reviewer, Ikarus 2020 mock exam of high school physics II reviewer
 
 ## Skills & Background Knowledge
 
@@ -88,7 +88,7 @@ Working as a part-time developer.
 * **Korean**: Mothertongue
 * **English**: Intermediate 
   * Fluent in communicative and academic aspect
-    * TOEIC: 795/990(9/2019)
+    * TOEIC: 795/990(Sep/2019)
 
 ## Interests
 
