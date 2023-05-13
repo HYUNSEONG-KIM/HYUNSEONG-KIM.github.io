@@ -29,7 +29,7 @@ Interesting in computational method in physics and quantum computation.
 * Computaional physics
 * Simulation
 
-as research topics
+as research topics.
 
 * Bookbinding
 * 3D printing

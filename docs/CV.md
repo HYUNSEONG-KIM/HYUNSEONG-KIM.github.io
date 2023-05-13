@@ -12,7 +12,6 @@ permalink: /cv
 
 ## Personal Information
 
-* Date of Birth: Oct 10th, 1999
 * Nationality: Korea, Republic of (= South Korea, 대한민국)
 * Homepage: https://hyunseong-kim.github.io
 * Personal Identifier
@@ -77,7 +76,7 @@ permalink: /cv
 ## Skills & Background Knowledge
 
 * Programming:
-  * Python: Expert, scientific module, program including gui build and deployment.
+  * Python: Advanced, scientific module, program including gui build and deployment.
   * C: Intermediate 
   * Wolfram Language: Basic
 * Publishing tools:

@@ -1,11 +1,30 @@
 ---
 layout: post
-title: Useful books
+title: Useful books and resources
 permalink: /docs/Miscellaneous/OpenedBooks
 parent: Miscellaneous
 ---
 
-# Opened Free textbooks
+# Online Academic and Standard Resources
+
+## Standard Scientific Data
+
+* [NIST standard reference data](https://www.nist.gov/srd)
+* [NIST Physics Reference data](https://www.nist.gov/pml/productsservices/physical-reference-data)
+
+## Mathematics 
+
+* [Abramowitz and Stegun. Handbook of Mathematical Functions](https://personal.math.ubc.ca/~cbm/aands/)
+* [NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov/) 
+* [Wolfram MathWorld](https://mathworld.wolfram.com/)
+* [Encyclopeida of Methematics](https://encyclopediaofmath.org/wiki/Main_Page)
+
+## Physics
+
+* [Particle Data Group](https://pdg.lbl.gov/)
+* 
+
+# Free textbooks
 
 Free online book sources
 
@@ -31,6 +50,8 @@ Free online book sources
 |Richard Hammack|[BOOK OF PROOF](http://www.people.vcu.edu/~rhammack/BookOfProof/)||2018|
 |Thomas W. Judson, Robert A. Beezer|[Abstract Algebra: Theory and Applications](http://abstract.ups.edu/aata/aata.html)|University of Puget Sound|2021|
 ||[NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov/)|
+
+See [online mathematics textbooks](https://cain.math.gatech.edu/textbooks/onlinebooks.html) for further books.
 
 ## Physics
 
@@ -71,7 +92,6 @@ http://carina.fcaglp.unlp.edu.ar/extragalactica/Bibliografia/Ryden_IntroCosmo.pd
 |Jurg Nievergelt, ETH Zurich Klaus Hinrichs|[Algorithms and Data Structures With Applications to Graphics and Geometry](https://open.umn.edu/opentextbooks/textbooks/algorithms-and-data-structures-with-applications-to-graphics-and-geometry)|Global Text Project||
 |Barthe, G., Katoen, J., & Silva, A. (Eds.).| [Foundations of Probabilistic Programming](https://www.cambridge.org/core/books/foundations-of-probabilistic-programming/819623B1B5B33836476618AC0621F0EE)|Cambridge University Press|2020|
 |Rubel, A., Castro, C., & Pham, A.|[Algorithms and Autonomy: The Ethics of Automated Decision Systems](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1FB7CBAF929DF33FEB57467CB613899C/9781108841818AR.pdf/Algorithms_and_Autonomy.pdf?event-type=FTLA)|Cambridge University Press|2021|
-
 
 
 ## Tools and General Science
