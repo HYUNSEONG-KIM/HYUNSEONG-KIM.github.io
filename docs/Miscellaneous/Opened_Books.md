@@ -18,7 +18,8 @@ parent: Miscellaneous
 * [NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov/) 
 * [Wolfram MathWorld](https://mathworld.wolfram.com/)
 * [Encyclopeida of Methematics](https://encyclopediaofmath.org/wiki/Main_Page)
-
+* [Cornell University Computational Optimization Open Textbook](https://optimization.cbe.cornell.edu/index.php?title=Main_Page)
+ 
 ## Physics
 
 * [Particle Data Group](https://pdg.lbl.gov/)
