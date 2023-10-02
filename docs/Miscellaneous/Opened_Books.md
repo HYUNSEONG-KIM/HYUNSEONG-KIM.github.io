@@ -56,6 +56,23 @@ See [online mathematics textbooks](https://cain.math.gatech.edu/textbooks/online
 
 ## Physics
 
+### David Tong's lecture series
+
+Dr. Tong is a theoretical physicist at Cambridge university.
+He opened all lecture materials and problems on [his site](https://www.damtp.cam.ac.uk/user/tong/teaching.html).
+
+List of open materials by David Tong.
+
+* Classical Mechanics
+* Electromagnetism
+* Quantum Mechanics
+* Condensed Matter
+* Fluid Mechanics
+* Statistical Physics
+* Gravitation and Cosmology
+* Quantum Field Theory
+* Supersymmetry and String Theory
+
 ### Classic Physics
 
 |Author|Title|Publiser|Publish Year|
