@@ -21,9 +21,18 @@ permalink: /cv
   
 ## Education
 
+### Degree and schools
+
 * 2019-Present: **Bachelor of Phyiscs**, *School of Physics and Photonics*, Gwangju Institute of Science and Technology([GIST](https://www.gist.ac.kr/kr/main.html)), Gwangju.
     * CPA: 3.86/4.5 - Grade: Distinction, HighestL 4.1/4.5 
 * 2015-2017: **High School Education**, High school attached to school of education of Hanyang University, Seoul.
+
+### Programs
+
+* July-Aug/2023: Special Summer Internship on Quantum WokForce Center of Korea University, Seoul
+  * Learned VQE and various quantum algorithms and challenges.
+  * Verval presented "TROTTER CIRCUIT OPTIMIZATION THROUGH ADIABATIC COMPUTATION"
+* July/2023-Present: Bachelor intership on Quantum Field and Gravity Theory Group, GIST
 
 ## Research
 
@@ -40,16 +49,22 @@ permalink: /cv
 
 ### Publication
 
+#### Preprint
+
+* May/2023: Properties of Gauss Hypergeometric function, 2F1, of special parameters
+  * DOI: [10.5281/zenodo.8025131](http://doi.org/10.5281/zenodo.8025131)
+
 #### Patent
 
 * Nov/2020: Machine for manufacturing printed circuit boards using photopolymerization effect and metal nano ink, Korean Intellectual Property Office.
   * Roll: Conceptualization, Project administration, Resources, Software, Supervision
   * DOI: [10.8080/1020200151660](http://doi.org/10.8080/1020200151660)
   * GOOGLE_PATENT_CODE: [KR20210003063A](https://patents.google.com/patent/KR20210003063A)
-  
+
+
 ## Experience
 
-### Education
+### Educator
 
 * 2021: **Teaching Assistant**, Gwangju Insititute of Science and Technology, Gwangju, "GS1001 Single Variable Calculus and application"
 
@@ -64,7 +79,7 @@ permalink: /cv
   * Learned about data processing for large scale data, communication between server and automatic data pip line system.
 * 2019: Makerton (GIST 2019). Mobility unified black-box system using IOT
 
-### Translation
+### Translator
 
 * Jan/2021-Aug/2021: (English -> Korean) Wolfram Inc, Wolfram U team education contents translation team activity. See a [Certification](https://hyeansung.github.io/resources/Wolfram_Translation_Certification.pdf).
 
@@ -73,23 +88,42 @@ permalink: /cv
 * 2019: Volunteer, Junction X 2019 Hackerton
 * Mar/2019: Reviewer, Ikarus 2020 mock exam of high school physics II reviewer
 
+## Awards and Funds
+
+* Government-Sponsored full tution scholarship including residency stipends
+  * Gwangju Institude of Science and Technology
+  * Received a scholarship and residency stipends for the entire duration of the bachelor's degree probram.
+* Institutional Scholarship for a grading semester for performing academic excellence
+  * Gwangju Institude of Science and Technology
+  * Spring 2020
+
 ## Skills & Background Knowledge
 
-* Programming:
-  * Python: Advanced, scientific module, program including gui build and deployment.
+###  Tools
+
+* Programming Language:
+  * Python: Intermediate-Advanced, scientific module, program including gui build and deployment.
   * C: Intermediate 
   * Wolfram Language: Basic
 * Publishing tools:
   * Latex: Basic
 
-## Language
+### Language
 
 * **Korean**: Mothertongue
 * **English**: Intermediate 
   * Fluent in communicative and academic aspect
     * TOEIC: 795/990(Sep/2019)
+    * TOEFLE: 82/120(Aug/2023)
 
 ## Interests
+
+* Numerical calculation
+* Computer Algebraic system
+* Optimization
+* Quantum computing and algorithm
+* Education in Physics
+* Bookbinding
 
 
 
