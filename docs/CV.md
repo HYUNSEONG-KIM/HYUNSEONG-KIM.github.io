@@ -112,16 +112,18 @@ permalink: /cv
 
 * **Korean**: Mothertongue
 * **English**: Intermediate 
-  * Fluent in communicative and academic aspect
-    * TOEIC: 795/990(Sep/2019)
-    * TOEFLE: 82/120(Aug/2023)
+  * TOEIC: 795/990(Sep/2019)
+  * TOEFLE: 82/120(Aug/2023)
 
 ## Interests
 
 * Numerical calculation
 * Computer Algebraic system
 * Optimization
+* Simulation
 * Quantum computing and algorithm
+
+
 * Education in Physics
 * Bookbinding
 
