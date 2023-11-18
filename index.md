@@ -21,13 +21,14 @@ I am a student in a Bachelor's degree course at [GIST](https://www.gist.ac.kr/kr
 
 Interesting in computational method in physics and quantum computation.
 
-[RESEARCH PROJECTS](https://hyunseong-kim.github.io/docs/Projects){: .btn .mr-2 } 
+[RESEARCH PROJECTS](https://hyunseong-kim.github.io/docs/projects){: .btn .mr-2 } 
 [CV](https://hyunseong-kim.github.io/cv){: .btn .mr-2 }
 
 ## Interested in 
 
 * Computaional physics
 * Simulation
+* Quantum computation
 
 as research topics.
 
