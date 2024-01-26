@@ -8,7 +8,7 @@ permalink: /cv
 
 # Curriculum Vitae
 
-<!-- [PDF version download](https://hyunseong-kim.github.io/docs/Projects){: .btn .mr-2 } -->
+[Download PDF version](https://hyunseong-kim.github.io/docs/cv.pdf){: .btn .mr-2 }
 
 ## Personal Information
 
@@ -21,20 +21,21 @@ permalink: /cv
   
 ## Education
 
-### Degree and schools
+### Degree and institutes
 
 * 2019-Present: **Bachelor of Phyiscs**, *School of Physics and Photonics*, Gwangju Institute of Science and Technology([GIST](https://www.gist.ac.kr/kr/main.html)), Gwangju.
-    * CPA: 3.86/4.5 - Grade: Distinction, HighestL 4.1/4.5 
+    * GPA: 3.95/4.5(total),  - Grade: Distinction, Highest: 4.25/4.5 
 * 2015-2017: **High School Education**, High school attached to school of education of Hanyang University, Seoul.
 
 ### Programs
 
-* July-Aug/2023: Special Summer Internship on Quantum WokForce Center of Korea University, Seoul
+* July-Aug/2023: [Special Summer Internship on Quantum WokForce Center of Korea University](https://qclab.korea.ac.kr/QCLab/index.php/Variational_Quantum_Algorithms:_Challenge_or_Excuse), Seoul
   * Learned VQE and various quantum algorithms and challenges.
-  * Verval presented "TROTTER CIRCUIT OPTIMIZATION THROUGH ADIABATIC COMPUTATION"
+  * Verval presented "TROTTER CIRCUIT OPTIMIZATION THROUGH ADIABATIC COMPUTATION", DOI:10.5281/zenodo.8434889.
+
 * July/2023-Present: Bachelor intership on Quantum Field and Gravity Theory Group, GIST
 
-## Research
+## Research Experiences
 
 ### Conference
 
@@ -64,7 +65,7 @@ permalink: /cv
 
 ## Experience
 
-### Educator
+### Tutor
 
 * 2021: **Teaching Assistant**, Gwangju Insititute of Science and Technology, Gwangju, "GS1001 Single Variable Calculus and application"
 
@@ -90,7 +91,7 @@ permalink: /cv
 
 ## Awards and Funds
 
-* Government-Sponsored full tution scholarship including residency stipends
+* Government-Sponsored full tution scholarship including residency stipends (2019~Present)
   * Gwangju Institude of Science and Technology
   * Received a scholarship and residency stipends for the entire duration of the bachelor's degree probram.
 * Institutional Scholarship for a grading semester for performing academic excellence
@@ -103,17 +104,20 @@ permalink: /cv
 
 * Programming Language:
   * Python: Intermediate-Advanced, scientific module, program including gui build and deployment.
-  * C: Intermediate 
+  Proficient in Python with experience in designing and implementing basic packages, plugins for other programs, and standalone applications. Skilled in scientific libraries like NumPy, SciPy, and scikit-learn for research and project applications.
+  * C: Intermediate.
   * Wolfram Language: Basic
 * Publishing tools:
   * Latex: Basic
+
+* Quantum Computing Frameworks
+  * Pennylane: Proficient in the usage of the Pennylane framework, including circuit construction, connection to real quantum devices, and utilization of the Pennylane database.
+  * Qiskit: Same with Pennylane
 
 ### Language
 
 * **Korean**: Mothertongue
 * **English**: Intermediate 
-  * TOEIC: 795/990(Sep/2019)
-  * TOEFLE: 82/120(Aug/2023)
 
 ## Interests
 
@@ -122,7 +126,6 @@ permalink: /cv
 * Optimization
 * Simulation
 * Quantum computing and algorithm
-
 
 * Education in Physics
 * Bookbinding

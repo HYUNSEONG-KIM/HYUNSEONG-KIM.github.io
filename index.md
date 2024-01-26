@@ -9,20 +9,26 @@ sitemap :
     priority : 1.0
 ---
 
-Welcome to Hyunseong Kim's personal homepage
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="hyun-seong-kim-91abaa183" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://kr.linkedin.com/in/hyun-seong-kim-91abaa183?trk=profile-badge">Hyun Seong Kim</a></div>
+              
 
-I am a student in a Bachelor's degree course at [GIST](https://www.gist.ac.kr/kr/main.html) \(Gwangju Institute of Science and Technology\).
+Hello, I am Hyunseong Kim.
 
+As an undergraduate student, I am pursuing a physics degree, and mathematics minor degree in [GIST](https://www.gist.ac.kr/kr/main.html) \(Gwangju Institute of Science and Technology\). I am mainly focused on computational approach to physcis problems, especially simulation and efficient algorithms. 
+You can see my [CV](https://hyunseong-kim.github.io/cv){: .btn .mr-2 }.
 
 * Department: Physics and Photonics
 * Research identifier
     * Orcid: [0000-0002-4876-7820](https://orcid.org/0000-0002-4876-7820)
     * Krid: 12673381
 
-Interesting in computational method in physics and quantum computation.
+
+
+In progress, and miscellaneous works are updated on Github or Linkedin pages.
 
 [RESEARCH PROJECTS](https://hyunseong-kim.github.io/docs/projects){: .btn .mr-2 } 
-[CV](https://hyunseong-kim.github.io/cv){: .btn .mr-2 }
+[Github](https://github.com/HYUNSEONG-KIM){: .btn .mr-2 }
+
 
 ## Interested in 
 
