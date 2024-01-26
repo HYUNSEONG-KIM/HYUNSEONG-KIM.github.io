@@ -8,7 +8,7 @@ permalink: /cv
 
 # Curriculum Vitae
 
-[Download PDF version](https://hyunseong-kim.github.io/docs/cv.pdf){: .btn .mr-2 }
+[Download PDF version](/docs/cv.pdf){: .btn .mr-2 }
 
 ## Personal Information
 
@@ -82,7 +82,7 @@ permalink: /cv
 
 ### Translator
 
-* Jan/2021-Aug/2021: (English -> Korean) Wolfram Inc, Wolfram U team education contents translation team activity. See a [Certification](https://hyeansung.github.io/resources/Wolfram_Translation_Certification.pdf).
+* Jan/2021-Aug/2021: (English -> Korean) Wolfram Inc, Wolfram U team education contents translation team activity. See a [Certification](/resources/Wolfram_Translation_Certification.pdf).
 
 ### Miscelleneous
 
