@@ -2,16 +2,19 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Home page of Hyun"
+description: "Homepage of Hyunseong Kim"
 permalink: /
 sitemap : 
     changefreq : daily 
     priority : 1.0
 ---
 
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="hyun-seong-kim-91abaa183" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://kr.linkedin.com/in/hyun-seong-kim-91abaa183?trk=profile-badge">Hyun Seong Kim</a></div>
-              
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="hyun-seong-kim-91abaa183" data-version="v1">
+<a class="badge-base__link LI-simple-link" href="https://kr.linkedin.com/in/hyun-seong-kim-91abaa183?trk=profile-badge">Hyun Seong Kim</a>
+</div>
+              
 Hello, I am Hyunseong Kim.
 
 As an undergraduate student, I am pursuing a physics degree, and mathematics minor degree in [GIST](https://www.gist.ac.kr/kr/main.html) \(Gwangju Institute of Science and Technology\). I am mainly focused on computational approach to physcis problems, especially simulation and efficient algorithms. 
