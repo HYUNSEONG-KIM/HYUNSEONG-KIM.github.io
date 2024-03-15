@@ -8,10 +8,13 @@ permalink: /cv
 
 # Curriculum Vitae
 
-[Download PDF version](/docs/CV.pdf){: .btn .mr-2 }
+<!--[Download PDF version](/docs/CV.pdf){: .btn .mr-2 }-->
 
 ## Personal Information
 
+* Name: Hyunseong Kim
+* Current Education: Bachelor Student of Physics and Photonics with Mathematics Minor.
+* Affiliation: [Gwangju Institute of Science and Technology](https://www.gist.ac.kr/en/main.html)
 * Nationality: Korea, Republic of (= South Korea, 대한민국)
 * Homepage: https://hyunseong-kim.github.io
 * Personal Identifier
@@ -21,9 +24,9 @@ permalink: /cv
   
 ## Education
 
-### Degree and institutes
+### Degree and Institutes
 
-* 2019-Present: **Bachelor of Phyiscs**, *School of Physics and Photonics*, Gwangju Institute of Science and Technology([GIST](https://www.gist.ac.kr/kr/main.html)), Gwangju.
+* 2019-Present: **Bachelor of Phyiscs and Photonics**, *School of Physics and Photonics*, Gwangju Institute of Science and Technology([GIST](https://www.gist.ac.kr/kr/main.html)), Gwangju.
     * GPA: 3.95/4.5(total),  - Grade: Distinction, Highest: 4.25/4.5 
 * 2015-2017: **High School Education**, High school attached to school of education of Hanyang University, Seoul.
 
@@ -31,19 +34,25 @@ permalink: /cv
 
 * July-Aug/2023: [Special Summer Internship on Quantum WokForce Center of Korea University](https://qclab.korea.ac.kr/QCLab/index.php/Variational_Quantum_Algorithms:_Challenge_or_Excuse), Seoul
   * Learned VQE and various quantum algorithms and challenges.
-  * Verval presented "TROTTER CIRCUIT OPTIMIZATION THROUGH ADIABATIC COMPUTATION", DOI:10.5281/zenodo.8434889.
+  * Conducted research on optimized Trotterization circuit and method.
+  * Related work: "TROTTER CIRCUIT OPTIMIZATION THROUGH ADIABATIC COMPUTATION", DOI:10.5281/zenodo.8434889.
 
 * July/2023-Present: Bachelor intership on Quantum Field and Gravity Theory Group, GIST
+* July/2023-Present: Bachelor intership on Computational Material Science Lab, GIST
 
 ## Research Experiences
 
 ### Conference
 
+* Aub/2023: **Presentation**, Totter circuit optimization through adiabatic computer, 2023 Summer Variational_Quantum_Algorithms:_Challenge_or_Excuse Internship hold by QcLab, Korea University, Zenodo. https://doi.org/10.5281/zenodo.8434890
 * July/2022: **Poster**, "Design methods of uniform illumination light device with LEDs: boundary center matching and distribution approximation", [Optics and Photonics Congress 2022 ICC JEJU](https://www.osk.or.kr/conference/event/index.php?cfrid=34), [Optics Society of Korea](https://www.osk.or.kr/), TPP-II-09.
 
 ### Projects
 
-* 2020-2021: TPMS, Design of Table size PCB Manufacturing System, funded by GIST Bachelor Project Support Program(무한도전). *Finished*.
+* Oct/2023-Present: **Opttrot**, Optimization of Trotterization circuit, Fast Pauli-term synthesis and manipulation and interfaces for optimizers. This project is funded by [Center for Quantum Sapient Workforce](https://quantuminkorea.org/education/). 
+  * Repository:https://github.com/HYUNSEONG-KIM/OptTrot 
+
+* 2020-2021: **TPMS**, Design of Table size PCB Manufacturing System, funded by GIST Bachelor Project Support Program(무한도전). *Finished*.
   * Related works
     * Patent: Machine ofr manufacturing printed circuit boards using photopolymerization ffe and metal nano ink
     * Poster: Design methods of uniform illumination light device with LEDs: boundary center matching and distribution approximation
@@ -52,8 +61,8 @@ permalink: /cv
 
 #### Preprint
 
-* May/2023: Properties of Gauss Hypergeometric function, 2F1, of special parameters
-  * DOI: [10.5281/zenodo.8025131](http://doi.org/10.5281/zenodo.8025131)
+* May/2023: MONOTONICITITY AND INEQUALITIES of 2F1(1/(2n), b, 1/(2n) +1; - t^{2n}) FUNCTIONS
+  * DOI: [10.5281/zenodo.10774452](https://doi.org/10.5281/zenodo.10774452)
 
 #### Patent
 
@@ -67,10 +76,13 @@ permalink: /cv
 
 ### Tutor
 
+* 2024: **Teaching Assistant**, Gwangju Insititute of Science and Technology, Gwangju, "General Physics I"
+  
 * 2021: **Teaching Assistant**, Gwangju Insititute of Science and Technology, Gwangju, "GS1001 Single Variable Calculus and application"
 
 ### Developer
 
+* Feb/2024: Qhack 2024, Hornpenguin Team, Quantum imaginary time evolution routine on Pennylane, https://github.com/HornPenguin-Qhack2024-team/OpenHackathon.
 * Sep/2021-Oct/2021: **Internship**, Quantum information Lab, Hanyang university, Seoul.
   * Project: Quantum computer and infomatics handbook, *Finished*.
   * Roll: Document converting program implement, Server environment develope and management, and Reviewing contents.
@@ -122,13 +134,12 @@ permalink: /cv
 ## Interests
 
 * Numerical calculation
-* Computer Algebraic system
 * Optimization
 * Simulation
 * Quantum computing and algorithm
-
+<!--
 * Education in Physics
-* Bookbinding
+* Bookbinding -->
 
 
 
