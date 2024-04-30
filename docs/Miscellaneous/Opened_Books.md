@@ -124,6 +124,9 @@ Not a Free license
 
 * [Introduction to Quantum Algorithms via Linear Algebra](https://mitpress.altmetric.com/details/102826410/blogs)
 
+Not a Free License but perimitted for academic purpose
+
+* https://dec41.user.srcf.net/notes/
 
 # Quantum Informatics and Computing
 
