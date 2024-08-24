@@ -17,14 +17,14 @@ sitemap :
               
 Hello, I am Hyunseong Kim.
 
-As an undergraduate student, I am pursuing a physics degree, and mathematics minor degree in [GIST](https://www.gist.ac.kr/kr/main.html) \(Gwangju Institute of Science and Technology\). I am mainly focused on computational approach to physcis problems, especially simulation and efficient algorithms. 
-You can see my [CV](https://hyunseong-kim.github.io/cv){: .btn .mr-2 }.
+As an undergraduate student, I am pursuing a physics degree, and mathematics minor degree in [GIST](https://www.gist.ac.kr/kr/main.html) \(Gwangju Institute of Science and Technology\). 
+I am mainly focused on computational approach to physcis problems, especially simulation and efficient algorithms. 
+
 
 * Department: Physics and Photonics
 * Research identifier
     * Orcid: [0000-0002-4876-7820](https://orcid.org/0000-0002-4876-7820)
     * Krid: 12673381
-
 
 
 In progress, and miscellaneous works are updated on Github or Linkedin pages.
@@ -51,7 +51,7 @@ as personal enjoyable things.
 [Personal](https://hyunseong-kim.github.io/docs/Projects)
 
 * [UILC](https://hyunseong-kim.github.io/docs/research/uilc) : Uniform Illumination Light device Calcultion project with combination of LEDs
-* [Special functions]() : Special function modules for scientific computing and simulation
+<!--* [Special functions]() : Special function modules for scientific computing and simulation-->
 
 ## Essays
 
