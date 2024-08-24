@@ -3,7 +3,7 @@ layout: post
 title: Research Management Software
 nav_order: 1
 parent: Projects
-has_children: true
+has_children: false
 permalink: /docs/projects/icebreaker
 ---
 
