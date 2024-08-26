@@ -11,32 +11,13 @@ sitemap :
 
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
-<style>    
-div {        
-    width: 100%;        
-    height: 300px;  
-    }    
-div.col1 {        
-    width: 50%;        
-    float: left;        
-}    
-div.col2 {        
-    width: 50%;        
-    float: right;                           
-    }    
-</style>
-
-
-
 <div id="parnet">
 <div class="badge-base LI-profile-badge col1" data-locale="ko_KR" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="hyun-seong-kim-91abaa183" data-version="v1">
 <a class="badge-base__link LI-simple-link" href="https://kr.linkedin.com/in/hyun-seong-kim-91abaa183/ko?trk=profile-badge">
 <img src="https://media.licdn.com/dms/image/v2/D5603AQFIWKjSE3kKig/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724518918668?e=1729728000&v=beta&t=_4hHHgc79WOocRAYyq8xeBE_K81sSaqk0MYImbfDLmE">
-
-
-
 </a>
 </div>
+
 
 [LinkedIn Profile](){:.btn .mr-2}
 
@@ -49,8 +30,8 @@ div.col2 {        
 As an undergraduate student, I am pursuing a physics degree, and mathematics minor degree in [GIST](https://www.gist.ac.kr/kr/main.html).
 My undergraduate research studied optimal simulation and algorithms of 
 Quantum dynamics on Quantum computer for general purpose simulation.
-I am look forward to combining various optimization problems and techniques 
-with quantum computings in both practical and theoretical manners.
+I am looking forward to combining various optimization problems and techniques 
+with quantum computing in both practical and theoretical manners.
 
 You can find various works of mine on Github and Zenodo.
 
@@ -62,7 +43,7 @@ You can find various works of mine on Github and Zenodo.
 
 ## Interested in 
 
-* Computaional physics
+* Computational physics
 * Simulation
 * Quantum computation
 * Optimization
