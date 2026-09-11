@@ -11,7 +11,7 @@ sitemap:
 
 # Hyunseong Kim
 
-Ph.D. student in Applied Physics, Rice University
+Ph.D. student in Applied Physics at Rice University
 {: .fs-5 .fw-400 }
 
 [CV (PDF)]({{ '/docs/CV.pdf' | relative_url }}){: .btn .mr-2 } · [GitHub](https://github.com/HYUNSEONG-KIM){: .btn .mr-2 } · [LinkedIn](https://www.linkedin.com/in/hyun-seong-kim-91abaa183){: .btn .mr-2 } · [ORCID](https://orcid.org/0000-0002-4876-7820){: .btn .mr-2 }
@@ -47,10 +47,10 @@ A framework for composing PennyLane quantum circuits with PyTorch modules and co
 ## Personal projects
 
 Outside research, I am a personal book-lover and bookbinding researcher.
-I work on publishing, printing, and bookbinding projects under the name **HornPenguin**, bringing together my interests in books, design, and programming.
+Though HornPenguin, I develop and distribute my open-source tools and documentations related to publishing, printing, bookbinding.
 
 **Booklet** is my open-source tool for arranging PDF pages into printable booklets and folded signatures. 
 
-**한국의 철장(Korean Metal Binding Manuscript)** is a DB construction project to organize relic, manuscript, image of the special bookbinding format in tradition of Korean penninsula. 
+**한국의 철장(Korean Metal Binding Manuscript)** is a database project documenting artifacts, manuscripts, and images related to traditional Korean metal binding.
 
 [HornPenguin]({% link docs/Projects/HornPenguin.md %})
