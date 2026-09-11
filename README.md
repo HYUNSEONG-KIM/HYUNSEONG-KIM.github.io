@@ -1,3 +1,24 @@
+## Local preview of this site
+
+Use Bundler 2.3.3 or newer within the 2.x series. With the installed Bundler 2.4.8:
+
+```powershell
+bundle install
+bundle exec jekyll serve
+```
+
+Open <http://localhost:4000>. Stop the server with Ctrl+C.
+
+If an older checkout still selects Bundler 2.1.4, migrate its local lockfile once:
+
+```powershell
+bundle _2.4.8_ lock --local --bundler=2.4.8
+```
+
+Then use the unversioned commands above; explicitly running `bundle _2.1.4_` selects the deprecated version.
+
+The original theme documentation follows.
+
 <p align="right">
     <a href="https://badge.fury.io/rb/just-the-docs"><img src="https://badge.fury.io/rb/just-the-docs.svg" alt="Gem version"></a> <a href="https://github.com/pmarsceill/just-the-docs/actions?query=workflow%3A%22Master+branch+CI%22"><img src="https://github.com/pmarsceill/just-the-docs/workflows/Master%20branch%20CI/badge.svg" alt="Build status"></a>
 </p>

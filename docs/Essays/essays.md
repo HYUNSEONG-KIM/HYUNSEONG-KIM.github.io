@@ -1,10 +1,13 @@
 ---
 layout: post
-title: Essays
-nav_order: 2
+title: Writing
+nav_order: 5
 has_children: true
-permalink: /docs/essays
+permalink: /writing
+description: "Essays and longer-form technical notes"
 ---
 
-# List of Essays
+# Writing
+
+Longer-form essays and exploratory notes on scholarly communication, scientific resources, and technical ideas.
 

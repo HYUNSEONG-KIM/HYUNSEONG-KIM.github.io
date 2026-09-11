@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Obtaining Academic Resources
+title: Academic Resources
 permalink: /docs/Miscellaneous/academic_resources
-parent: Miscellaneous
+parent: Resources
+nav_order: 1
 ---
 
 한국 기준

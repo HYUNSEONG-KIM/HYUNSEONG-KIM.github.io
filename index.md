@@ -2,74 +2,55 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Homepage of Hyunseong Kim"
+description: "Hyunseong Kim — quantum algorithms, computational complexity, and Hamiltonian simulation"
 permalink: /
-sitemap : 
-    changefreq : daily 
-    priority : 1.0
+sitemap:
+  changefreq: monthly
+  priority: 1.0
 ---
 
+# Hyunseong Kim
 
-<a class="badge-base__link LI-simple-link" href="https://kr.linkedin.com/in/hyun-seong-kim-91abaa183/ko?trk=profile-badge">
-<img src="https://media.licdn.com/dms/image/v2/D5603AQFIWKjSE3kKig/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724518918668?e=1729728000&v=beta&t=_4hHHgc79WOocRAYyq8xeBE_K81sSaqk0MYImbfDLmE">
-</a>
+Ph.D. student in Applied Physics, Rice University
+{: .fs-5 .fw-400 }
 
+[CV (PDF)]({{ '/docs/CV.pdf' | relative_url }}){: .btn .mr-2 } · [GitHub](https://github.com/HYUNSEONG-KIM){: .btn .mr-2 } · [LinkedIn](https://www.linkedin.com/in/hyun-seong-kim-91abaa183){: .btn .mr-2 } · [ORCID](https://orcid.org/0000-0002-4876-7820){: .btn .mr-2 }
 
-[LinkedIn Profile](){:.btn .mr-2}
+I am a Ph.D. student in the Quantum Complexity Theory group at Rice University, advised by Prof. Nai-Hui Chia. I study quantum algorithms, quantum circuit complexity, and Hamiltonian simulation, with an interest in the resource requirements and numerical reliability of quantum algorithms.
 
-* Department: Physics and Photonics
-* Research identifier
-    * Orcid: [0000-0002-4876-7820](https://orcid.org/0000-0002-4876-7820)
-    * Krid: 12673381
- 
+I received my B.S. in Physics and Photonics with a minor in Mathematics from Gwangju Institute of Science and Technology (GIST) in 2025. Before joining Rice, I worked on quantum simulation, Pauli-frame methods, computational materials research, and Trotter-circuit optimization.
 
-As an undergraduate student, I am pursuing a physics degree, and mathematics minor degree in [GIST](https://www.gist.ac.kr/kr/main.html).
-My undergraduate research studied optimal simulation and algorithms of 
-Quantum dynamics on Quantum computer for general purpose simulation.
-I am looking forward to combining various optimization problems and techniques 
-with quantum computing in both practical and theoretical manners.
+Email: [hk81@rice.edu](mailto:hk81@rice.edu)
 
-You can find various works of mine on Github and Zenodo.
+## Research interests
 
+- **Quantum algorithms:** Hamiltonian dynamics, Krylov-subspace methods, and Trotterization.
+- **Quantum complexity:** circuit depth, sampling complexity, constant-depth constructions, unitary designs, and scrambling.
+- **Numerical analysis:** perturbation bounds, error propagation, and stability in Gram-matrix, reduced-Hamiltonian, and observable estimation.
 
-[Zenodo](https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Hyunseong%2C%20Kim%22&l=list&p=1&s=10&sort=bestmatch){:.btn .mr-2}
+[More about my research]({% link docs/Projects/Projects.md %})
 
-[Github](https://github.com/HYUNSEONG-KIM){: .btn .mr-2 }
+## Selected research software
 
+**Tensorized Pauli Composer**<br>
+An algorithm for constructing Hamiltonian matrices from weighted Pauli polynomials using symplectic representations and inverse tensorized Pauli decomposition. Presented at Quantum Threads 2024.<br>
+[Code](https://github.com/OptTrot/Tensorized-Pauli-Composer) · [Technical preprint](https://doi.org/10.5281/zenodo.14245728)
 
+**OptTrot**<br>
+Python and C routines for Pauli algebra, Hamiltonian decomposition, operator conversion, and Trotter-circuit generation.<br>
+[Code](https://github.com/OptTrot/OptTrot)
 
-## Interested in 
+**TorchPenny**<br>
+A framework for composing PennyLane quantum circuits with PyTorch modules and computation workflows.<br>
+[Code](https://github.com/HYUNSEONG-KIM/TorchPenny)
 
-* Computational physics
-* Simulation
-* Quantum computation
-* Optimization
+## Personal projects
 
-## Personal Works
+Outside research, I am a personal book-lover and bookbinding researcher.
+I work on publishing, printing, and bookbinding projects under the name **HornPenguin**, bringing together my interests in books, design, and programming.
 
-### Bookbinding and crafting
+**Booklet** is my open-source tool for arranging PDF pages into printable booklets and folded signatures. 
 
-I am also a book collector and bibliophilia.
-It is considered just a crafting technique, 
-however, it consists of full of interdisciplinary field, including
-algorithm and geometry.
+**한국의 철장(Korean Metal Binding Manuscript)** is a DB construction project to organize relic, manuscript, image of the special bookbinding format in tradition of Korean penninsula. 
 
-![HornPenguin Logo](https://avatars.githubusercontent.com/u/89630847?s=80&v=4)
-
-[HornPenguin](https://github.com/HornPenguin) is a my peronal design brand for the activities in publishing, printing and bookbinding.
-
-
-* Softwares for book printing and binding: [Hornpenguin Github](https://github.com/HornPenguin)
-  * HornPenguin Booklet: Imposition and pringint mark generation software for bookbinders and booklet maker.
-  * HornPenguin IceBreaker: Book and resource management application for home book and digital resource collectors
-  
-### Essays
-
-[Essays](https://hyunseong-kim.github.io/docs/essays)
-
-* [Dynamic Reference](https://hyunseong-kim.github.io/docs/essays/dynamic_ref_work) :  
-
-
-
-
- 
+[HornPenguin]({% link docs/Projects/HornPenguin.md %})

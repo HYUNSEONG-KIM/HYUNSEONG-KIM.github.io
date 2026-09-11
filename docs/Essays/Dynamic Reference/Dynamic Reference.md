@@ -2,8 +2,8 @@
 layout: post
 title: Dynamic Reference Work
 nav_order: 1
-parent: Essays
-has_children: true
+parent: Writing
+has_children: false
 permalink: /docs/essays/dynamic_ref_work
 ---
 
@@ -126,4 +126,4 @@ Articles in EoM should contain substantial encyclopedic content, which satisfies
     clarity
     verifiability (references for statements should be given, possibly with links)
 
-The editorial board, under the management of the European Mathematical Society, monitors any changes of articles and has full scientific authority over alterations and deletions. 
+The editorial board, under the management of the European Mathematical Society, monitors any changes of articles and has full scientific authority over alterations and deletions.

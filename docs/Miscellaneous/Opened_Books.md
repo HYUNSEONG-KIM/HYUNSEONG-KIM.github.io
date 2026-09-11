@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Useful books and resources
+title: Open Books and References
 permalink: /docs/Miscellaneous/OpenedBooks
-parent: Miscellaneous
+parent: Resources
+nav_order: 3
 ---
 
 # Online Academic and Standard Resources

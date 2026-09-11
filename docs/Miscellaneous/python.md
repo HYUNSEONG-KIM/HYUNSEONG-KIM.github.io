@@ -1,60 +1,49 @@
 ---
 layout: post
-title: python cheat sheet
+title: Python Notes
 permalink: /docs/Miscellaneous/python-cheat
-parent: Miscellaneous
+parent: Resources
+nav_order: 4
+description: "Practical notes on packaging Python applications, Python–C interfaces, and Tkinter."
+last_modified_date: 2026-09-10
 ---
 
-# Python cheat sheet
+# Python Notes
 
-This document is a memos about programming issue in pythons.
+These notes collect practical considerations from Python application development: distributing standalone applications, using C extensions, and configuring Tkinter window icons.
 
+## Packaging standalone applications
 
-## Standalone packaging
- 
-There are no more words needed for python's fast reproduction and redistribution of source codes to developers and researchers. However, the *executable* package distribution is not the main scope of python. Unlikely many compile languages(C/C++, Rust, ... ), the execution of python source code requires python environment and dependent packages. Have you ever seen any program requiring a compiler and libraries that the developer pawns off on users? Of course, some scientific programs or mass-size products, like games, demand some prerequisites but the most of dependencies are automatically installed. Moreover, for general users, constructing these environments is usually a merciless demand. 
+Sharing Python source code is straightforward when other developers already have a suitable environment. Distributing an application to a broader audience takes more work: users may not have Python installed or be familiar with managing dependencies.
 
-Pyinstaller is one solution of python distibution. There are other solutions about distibution of executable program.
+[PyInstaller](https://pyinstaller.org/en/stable/operating-mode.html) bundles an application with a Python interpreter and its dependencies. Users can run the resulting application without installing Python separately. Build and test the bundle on the operating system you intend to support; a bundle built on Windows is not a Linux executable.
 
-See details of usage in official [documents](https://pyinstaller.org/en/stable/)
+### Scientific libraries and bundle size
 
-This section describes some essential infos for fast referring.
+Libraries such as [NumPy](https://numpy.org/) provide efficient numerical routines, but their compiled components and dependencies can increase the size of a standalone application. The final size depends on the platform, package versions, and files included in the bundle.
 
-### Beaware using Libraries( especially scientific library )
+For a small utility that uses only a few simple operations, consider whether a large dependency is necessary. For substantial numerical work, a well-tested library is usually worth the additional size. Measure the actual bundle before deciding: package size alone is not a good reason to replace reliable numerical code.
 
-Some mathematical routines, like matrix operations, are requiring additional modules or you have to implement yourself for your project.
-If the project requires stable, precise, and high speed operations and there are tones of types of operations, it is vital to use addtional libraries, considering fast impelmentation. However, those libraries commonly consist of large number of functionalities. It makes their size huge for including them in executable file with *pyinstaller*. 
+## Python–C interfaces
 
-One example of those libraries is [numpy](numpy.org/). It is commonly included in many scientific applications and provides us various $n$-dimensional array modulation routines. However, if you only requires little matrix opeation, maybe 2 to 4?, including *numpy* to your project squanders lots of storage resources. At least, it requires 200*MB* in Windows, and a half a *GB* in Linux system.
+Implementing computationally intensive code in C can improve performance, but crossing the Python–C boundary has a cost. Repeated calls that perform very little work, or repeatedly convert and copy data, can offset the benefit of a faster implementation.
 
+Profile the application before moving code to C. When a bottleneck warrants a native implementation, consider:
 
-## C-Python interface
+- processing an array or batch of inputs in one call;
+- keeping the inner loop in native code;
+- avoiding unnecessary conversions and copies;
+- choosing data representations that both sides can access efficiently.
 
-In some case, you would feel desire to write a core algorithm with C to accelerate 
-overall speed of the implemeted routines.
-However, if the function is frequently called in python evironment to follow or to update 
-the internal variables, you **may not** write such function with C.
-The transformation cost from python to C and reverse direction requires huge resources
-much more than you expected at first. 
-To achieve a better performance, the implmented routine must minize data transfer during the execution.
-That means, C implemented part of the program could account for almost all parts of the routines.
+The [Python C-extension documentation](https://docs.python.org/3/extending/extending.html) explains how extension functions receive Python objects and return results to the interpreter.
 
-Good examples are numpy and pandas, they create, manipulate the datatypes(ndarray, dataframe) 
-inside C routines and never exchange the internal variables during the process.
+The same caution applies to bit-level optimizations. A low-level technique that is effective in C does not automatically improve Python code. Benchmark the complete operation, including conversion overhead, rather than assuming that a bitwise implementation will be faster than a built-in operation.
 
-Same argument also hold for binary operation.
-It is true that binary tricks with IEEE standard number system 
-could provide better performance. 
-However, Python is not a C and `int(python) != int(C)`. 
-Standard string class routines would show much faster performance than
-your bitwise implementation in most cases.
+## Tkinter window icons on Linux
 
+Tkinter exposes two window-icon methods, `iconbitmap` and `iconphoto`. They are not separate controls for the title bar and taskbar: how an icon is displayed depends on the platform and window manager.
 
-## Tkinter
+On Windows, `iconbitmap` can accept an ICO file. On X11, bitmap icons use Tk-supported bitmap formats such as XBM; renaming an ICO file does not convert it to XBM.
 
-### Icon issue in linux
-
-tkinter provides two icon setting, `iconbitmap` and `iconphoto`. The `iconbitmap` is a icon on program windows where the left top side of windows. The `iconphoto` is a task bar indication icon. 
-In Linux operating system, tkinter does not support `.ico` file format for `iconbitmap`. It only supports `.xbm` file format. It is meaningless to change the name of file. They are totally different file format. *Gimp* support `xbm` export of image.
-However, practically, `iconbitmap` routines are not work properly in many situation if gui application is on Linux system.
+For a photo-based icon, use `iconphoto` with a Tk photo image. Window-manager support still affects where the icon appears. See the [Tk window-manager documentation](https://www.tcl-lang.org/man/tcl8.6/TkCmd/wm.htm) for platform-specific behavior.
 

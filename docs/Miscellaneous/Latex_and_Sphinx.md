@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Latex and Sphinx
+title: LaTeX and Sphinx
 permalink: /docs/Miscellaneous/latex_sphinx
-parent: Miscellaneous
+parent: Resources
+nav_order: 2
 ---
 
 

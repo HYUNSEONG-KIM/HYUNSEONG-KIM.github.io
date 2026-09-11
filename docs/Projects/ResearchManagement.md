@@ -1,26 +1,27 @@
 ---
 layout: post
-title: Research Management Software
-nav_order: 1
-parent: Projects
+title: Research Workflow and Tools
+nav_order: 6
+parent: Resources
 has_children: false
 permalink: /docs/projects/icebreaker
 ---
 
 
 
-# Research Management software  Developments
+# Research Workflow and Tools
 
+Notes on tools and open-source systems for organizing research projects, references, documents, and data.
 
-## Routines and sample softwares and projects
+## Personal research stack
 
-1. Ebook and document management system: Calibre
-2. Citation management software: Zotero
-3. Project management software: Project Libre
-4. Task management software: TODO
-5. Note taking: Notion
+- **Books and documents:** Calibre
+- **References and citations:** Zotero
+- **Project planning:** ProjectLibre
+- **Tasks:** a dedicated task manager
+- **Notes and working documents:** Notion or a version-controlled repository
 
-As a data repository: 
+## Repository platforms
 
-* Invenio framework provides sacalable framework for data repostiory.
-* Mediawiki
+- **Invenio:** a scalable framework for research-data repositories.
+- **MediaWiki:** a collaborative knowledge base for evolving technical documentation.

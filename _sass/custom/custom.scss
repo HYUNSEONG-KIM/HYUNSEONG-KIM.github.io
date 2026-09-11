@@ -1,0 +1,42 @@
+// Small refinements to the standard Just the Docs layout.
+.main-content a:not(.btn) {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.nav-list .nav-list-item .nav-list-link:hover,
+.nav-list .nav-list-item .nav-list-link.active,
+.nav-list .nav-list-item .nav-list-expander:hover {
+  background-color: $feedback-color;
+  background-image: none;
+}
+
+.btn,
+.btn:hover,
+.btn:active,
+.btn:focus {
+  background-image: none;
+  border: 1px solid $border-color;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+a:focus-visible,
+.btn:focus-visible {
+  outline: 2px solid $link-color;
+  outline-offset: 3px;
+}
+
+.search-input:focus-visible {
+  outline: 2px solid $link-color;
+  outline-offset: -3px;
+}
+
+.search-input-wrap,
+.search-results,
+.table-wrapper {
+  border-radius: 0;
+  box-shadow: none;
+}

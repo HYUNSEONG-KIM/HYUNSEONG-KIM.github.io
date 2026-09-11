@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: HyunSeong
-description: Hyunseong's personal page
+title: Hyunseong Kim
+description: Research profile of Hyunseong Kim — quantum algorithms, computational complexity, and Hamiltonian simulation
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://hyunseong-kim.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -64,8 +64,10 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Home":
-    - "https://hyunseong-kim.github.io/"
+  "GitHub":
+    - "https://github.com/HYUNSEONG-KIM"
+  "LinkedIn":
+    - "https://www.linkedin.com/in/hyun-seong-kim-91abaa183"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -81,7 +83,7 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "Contact e-mail: qwqwhsnote@gm.gist.ac.kr <br>Copyright &copy; 2020-2022 Hyun Seong Kim. Distributed by an <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/''>BY-NC-ND</a><br />This work is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/''>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>."
+footer_content: "Contact: <a href='mailto:hk81@rice.edu'>hk81@rice.edu</a><br>Copyright &copy; 2020-2026 Hyunseong Kim. Content is licensed under <a rel='license' href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>."
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -91,12 +93,12 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
 gh_edit_repository: "https://github.com/HYUNSEONG-KIM/HYUNSEONG-KIM.github.io" # the github URL for your repo
-gh_edit_branch: "master" # the branch that your docs is served from
+gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
-color_scheme: light
+color_scheme: monochrome
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89

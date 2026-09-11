@@ -1,167 +1,104 @@
 ---
 layout: post
-title: Wolfram Engine on Research Server
+title: Wolfram Engine Setup
 permalink: /docs/Miscellaneous/RE_Wolfram_Engine
-parent: Miscellaneous
+parent: Resources
+nav_order: 5
+description: "Notes on using Wolfram Engine with JupyterLab on a Linux research server."
+last_modified_date: 2026-09-10
 ---
 
-English
-{: label .label-blue}
-Writing
-{: .label .label-red}
+# Wolfram Engine Setup
 
-# Wolfram Language Environment for Personal Server
+Wolfram Language provides tools for symbolic and numerical computation. This note describes a command-line and JupyterLab workflow for a Linux research server.
 
-Mathematica and Wolfram mathematical documents, now, have been essential tools and references for many natural science and engineering fields. Many textbooks and Handbooks are reprinted with changing their notation to wolfram math document style. They provide powerful symbolic calculation routines and grand unified system of various engineering and science methods for symbolic and numerical calculation. 
+The original notes were written for Ubuntu 20.04. The instructions below have been revised against the linked documentation, but have not been retested on a fresh Linux installation.
 
-Especially, symbolic calculation is killer application of Mathematica. It can implement real calculation module just same methods of derivative process and operations in papers and books. Not only for researchers but also students, plentiful experiences are possible with Mathematica by follwing equations and derivative process in texts. Machine works such as complicate integral and differential operation are easily solved and graphic tools help them to understand subjects well. 
+## Wolfram Engine and licensing
 
-In this document, it will cover constructing personal research server for symbolic computation with Wolfram Engine.
+Wolfram Engine runs Wolfram Language computations without the full Mathematica notebook interface. The availability of a free edition does not make the engine open source or authorize every use.
 
+License terms depend on the edition and any institutional agreement. Check the [Wolfram Engine FAQ](https://www.wolfram.com/engine/faq/) before using it for teaching, distributing an application, or deploying a service. A university site license may cover uses that the free development license does not.
 
-## Wolfram Engine
+## Install and activate Wolfram Engine
 
-Wolfram Inc, opened their core engine [**Wolfram Engine**](https://www.wolfram.com/engine/) of products with free for sofrware developer, students and individual researchers. It does not mean they opened their core engine source as open source, only permitted use of program. For example, software distribution including Wolfram Engine, or generating figures for papers and books are prevented by licenses. The educational activities are also included prevented work. If you want use Wolfram Engine for education, you need to get additional educational license from Wolfram Inc. Personal R&D, prototype program developments and studies are possible with Engine. 
+Download the Linux installer from the [official Wolfram Engine website](https://www.wolfram.com/engine/) and follow its installation instructions. Check the requirements for the version you download; installer size and required disk space vary.
 
-Refer to [official site](https://www.wolfram.com/engine/commercial-options/) for details of use. 
-
-## Construction
-
-You must prepare server environment you can access with web-browser. You can use GCP, AWS, Azura, Orcle Cloud,  Alibaba cloud or your own local server. All procedure is based on Ubuntu environment at least after [20.04 LTS]((https://releases.ubuntu.com/focal/). 
-
-### install of Wolfram Engine
-
-It requires `avahi-daemon` to install. 
+After installation, start the command-line interface:
 
 ```bash
-sudo apt update
-sudp apt install avahi-daemon
+wolframscript
 ```
 
-Distribution of Wolfram Engine is shell script form. It needs 1 GB storage for script file. For total installation, at least 50 GB storages are required.
+Complete activation if prompted, using the Wolfram account associated with your download or license. Confirm that a simple expression evaluates correctly before configuring Jupyter.
 
-You can directly download Linux version with `wget` command on bash shell.
+## Create a JupyterLab environment
+
+Use a separate Python environment for JupyterLab to keep its dependencies separate from the operating system's Python installation. The following example assumes that Conda is already installed and available in your shell.
+
+Create and activate an environment:
 
 ```bash
-$ wget https://account.wolfram.com/download/public/wolfram-engine/desktop/LINUX
+conda create -n WolframJupyter -c conda-forge python jupyterlab
+conda activate WolframJupyter
 ```
 
-To execute shell script it need `+x` permission. If you try without adding execution permission you will see next comment.
+Check that Jupyter is available:
 
 ```bash
-$ ls -l
--rw-r--r--  1   USER    GROUP   1121463126  Month   Day Hour:Minute LINUX
-$ ./LINUX
--bash: ./LINUX: Permission denied
+jupyter --version
 ```
 
-You can add permission with next command.
+For alternative installation methods, see the [JupyterLab installation guide](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html). If the command is not found, first check that the environment is active and JupyterLab is installed there.
+
+## Register the Wolfram Language kernel
+
+Installing JupyterLab does not automatically add a Wolfram Language kernel. Use the official [WolframLanguageForJupyter connector](https://github.com/WolframResearch/WolframLanguageForJupyter) to register it.
+
+With the Conda environment active and `wolframscript` available on your path, run:
 
 ```bash
-$ sudo chmod +x ./LINUX
-$ ls -l
--rwxr-xr-x  1   USER    GROUP   1121463126  Month   Day Hour:Minute LINUX
+git clone https://github.com/WolframResearch/WolframLanguageForJupyter.git
+cd WolframLanguageForJupyter
+./configure-jupyter.wls add
+jupyter kernelspec list
 ```
-Now you can run shell script. x64 version Wolfram engine at least requires more than 50GB size storage for install.
 
-After installation complete, you can use Wolfram language with typing `wolframscript`. If you run `wolframscript` first time, you have to do autherization process with your wolfram account.
-
-In this state, you can call Wolfram engine from your local C/C++ program with [C-api](https://reference.wolfram.com/language/guide/CLanguageInterface.html) and other language interface. However, Wolfram language is interpreter language and has a notebook
-environment(Wolfram Notebook). The Wolfram engine only provides command line interface. Is there way to use notebook environment?  
-
-## Jupyter Environment
-
-Mathematica does not only consist of Wolfram Engine. It is combination of Wolfram Engine and other softwares. One of them is Wolfram Notebook. Wolfram Notebook is not opened with Wolfram Engine. However, they provide connection tool with Jupytr Notebook which can be alternate front-end of Wolfram Notebook. With [**WolframLanguageForJupyter**](https://github.com/WolframResearch/WolframLanguageForJupyter), Wolfram engine can work on Jupyter as kernel.
-
-For server based system, there is [**Jupyter Lab**](https://jupyter.org/) program. Wolfram Engine nicely fit with Jupyter Lab also.
-
-### Install Jupyter Lab
-
-Bascially, ubuntu has its own python environment. It is wise that seperate your programming work environment and system. 
-There are several ways to build virtual environment in python. Common method is using Anaconda. 
-This document will use [Anaconda](https://www.anaconda.com/products/individual#Downloads).
-There is no different even you make python environment with other method. 
+The list should contain a Wolfram Language kernel. Its identifier may vary by version. If registration fails, consult the connector's configuration options:
 
 ```bash
-$wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+./configure-jupyter.wls help
 ```
 
-Same with Wolfram script add `+x` permission and execute.
+## Start JupyterLab
+
+From the directory where you keep your notebooks, run:
 
 ```bash
-$sudo chmod +x Anaconda3-2021.05-Linux-x86_64.sh
-$./Anaconda3-2021.05-Linux-x86_64.sh
+jupyter lab --no-browser --ip=127.0.0.1
 ```
 
-After installation, relogin shell then you can see `(base)` word is attached to front of shell prompt.
+On a remote server, access this local listener through an SSH tunnel. In a terminal on your own computer, replace `user@server` with your server login:
 
 ```bash
-(base) USER_NAME@USER_COMPUTER:~$
+ssh -N -L 8888:127.0.0.1:8888 user@server
 ```
 
-This means `base` environment is activated. You can activate and deactivate with `conda` command and environment name.
+Open the localhost URL printed by Jupyter in your browser, including its authentication token. Adjust the forwarded port if Jupyter starts on a port other than 8888.
 
-```bash
-(base) $ conda deactivate
-$ conda activate base 
-(base) $
+Select the Wolfram Language kernel when creating a notebook. As a first check, evaluate:
+
+```mathematica
+Integrate[x^2, x]
 ```
 
-Let naming new environment as "WolframJupyter" then, it can be initilized as next process.
+For supported output formats and connector behavior, consult the [connector documentation](https://github.com/WolframResearch/WolframLanguageForJupyter). Jupyter provides a notebook interface, but it does not reproduce every Mathematica front-end feature.
 
-```bash
-$ conda create WolframJupyter #normal creation
-```
+## Working with multiple notebooks
 
-With `-n` option you can constraint version of python and install specific python library during creation.
+Separate notebooks may start separate kernel processes. If another notebook cannot start its kernel, check existing sessions and the limits of your license. Avoid assuming that the same process limit applies to every Wolfram installation.
 
-```bash
-$ conda create -n WolframJupyter python=3.8 scipy
-```
-It is same with
-
-```bash
-$ conda create -n WolframJupyter python
-$ conda install -n WolframJupyter scipy
-```
-After initiation, activate new environment. 
-
-```bash
-$ conda activate WolframJupyter
-(WomframJupyter) $
-```
-
-See [conda document](https://conda.io/projects/conda/en/latest/index.html) for more information.
-
-
-```bash
-$sudo apt update
-$sudo apt upgrade
-$sudo apt install python3-pip jupyter-core
-```
-
-If you get error message when you run `jupyter lab` then you have to add path of jupyter lab to shell `PATH` variable. 
-
-```bash
-$sudo export PATH="$HOME/.local/bin:$PATH" 
-```
-
-For permanent use, open `~/.bashrc` file and add next line to end of the file.
-
-```
-export PATH="$HOME/.local/bin:$PATH"
-```
-
-## Use of Wolfram language on Jupyter
-
-You can run every commands in wolfram languge in jupyter server with Wolfram Kernel as same with Mathematica. For example, you can connect internal wolfram database like Wolfram [ChemicalData](https://reference.wolfram.com/language/ref/ChemicalData.html) or external service like Pubchem, ChemSpidyer on wolfram engine just like in Mathematica. See lists of [supported external services](https://reference.wolfram.com/language/guide/ListingOfSupportedExternalServices.html). Refer [Wolfram Documentation Center](https://reference.wolfram.com/language/) for details of Wolfram Language. Basic introduction is on [fast-introduction](https://www.wolfram.com/language/fast-introduction-for-programmers/ko/).
-
-Please note, only one wolfram kernel instance can be executed on your system simultaneously. If you run some task with 'A' notebook file and you try to run 'B' notebook file using Wolfram kernel, then B file won't work as you expect.
-
-
-<!--
-This is python api wolfram engine case
-However, for images like 3D structure of chemical compound, they exist as specipic formatted data that is not directly represented on Jupyter notebook UI, unlikely, many plot libraries in python such as matplotlib. Their result images consquencsly indicated on notebook outcome. Therefore, if you work >
+For language reference material, see the [Wolfram Documentation Center](https://reference.wolfram.com/language/).
 
 
 
